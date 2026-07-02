@@ -1,0 +1,31 @@
+be/src/storage/iterators.h
+  s_53b5e733b46913::t_d8661422f6476e 178
+be/src/storage/segment/segment_iterator.h
+  s_53b5e733b46913::t_9ddac379dadb5e 390
+be/src/storage/rowset/beta_rowset_reader.cpp
+  s_53b5e733b46913::t_d4d500e97aeffe 69
+be/src/storage/tablet/tablet_reader.h
+  s_53b5e733b46913::t_5b58d5b498b452 228
+fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+  s_53b5e733b46913::t_7362229abfe0fc 3065,3068,3071
+be/src/storage/rowset/rowset_reader_context.h
+  s_53b5e733b46913::t_6232438235e575 117
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "c3f62ba9f0e77830a785f316d8daabbb24fd62fb",
+  "prompts": {},
+  "sessions": {
+    "s_53b5e733b46913": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "68b6ef41edc2a8d8b3dca331",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
