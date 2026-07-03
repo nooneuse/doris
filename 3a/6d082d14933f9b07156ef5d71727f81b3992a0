@@ -1,0 +1,22 @@
+be/src/storage/segment/segment_iterator.cpp
+  s_53b5e733b46913::t_c3a4dcaf6033e2 3254,3258
+  s_53b5e733b46913::t_9d7405059f2eea 3375-3376
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "3a6d082d14933f9b07156ef5d71727f81b3992a0",
+  "prompts": {},
+  "sessions": {
+    "s_53b5e733b46913": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "68b6ef41edc2a8d8b3dca331",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}

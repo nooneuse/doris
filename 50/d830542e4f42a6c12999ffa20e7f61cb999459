@@ -1,0 +1,132 @@
+be/src/storage/segment/segment_iterator.cpp
+  s_53b5e733b46913::t_c3a4dcaf6033e2 3254
+  s_53b5e733b46913::t_9d7405059f2eea 3295,3375-3376,3507-3522,3583-3585
+be/src/storage/rowset/beta_rowset_reader.cpp
+  s_53b5e733b46913::t_d4d500e97aeffe 69 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a460d2f52e4b52e7324a744","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":69}]}]}
+be/src/storage/segment/segment_iterator.h
+  s_53b5e733b46913::t_9ddac379dadb5e 397
+be/src/storage/rowset/rowset_reader_context.h
+  s_53b5e733b46913::t_6232438235e575 120 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a460d1652e4b52e7324a6e4","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":120}]}]}
+be/src/storage/iterators.h
+  s_53b5e733b46913::t_d8661422f6476e 174 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a460d0f52e4b52e7324a6c7","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":174}]}]}
+be/src/storage/tablet/tablet_reader.h
+  s_53b5e733b46913::t_5b58d5b498b452 224 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a460d1d52e4b52e7324a706","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":224}]}]}
+fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+  s_53b5e733b46913::t_7362229abfe0fc 3020,3023,3026
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "50d830542e4f42a6c12999ffa20e7f61cb999459",
+  "prompts": {},
+  "humans": {
+    "h_cbfb26efde449e": {
+      "author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "sessions": {
+    "s_53b5e733b46913": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "68b6ef41edc2a8d8b3dca331",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    "be/src/storage/iterators.h": [
+      {
+        "hash": "s_53b5e733b46913::t_d8661422f6476e",
+        "line_ranges": [
+          {
+            "Single": 174
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a460d0f52e4b52e7324a6c7",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 174
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "be/src/storage/rowset/beta_rowset_reader.cpp": [
+      {
+        "hash": "s_53b5e733b46913::t_d4d500e97aeffe",
+        "line_ranges": [
+          {
+            "Single": 69
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a460d2f52e4b52e7324a744",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 69
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "be/src/storage/rowset/rowset_reader_context.h": [
+      {
+        "hash": "s_53b5e733b46913::t_6232438235e575",
+        "line_ranges": [
+          {
+            "Single": 120
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a460d1652e4b52e7324a6e4",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 120
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "be/src/storage/tablet/tablet_reader.h": [
+      {
+        "hash": "s_53b5e733b46913::t_5b58d5b498b452",
+        "line_ranges": [
+          {
+            "Single": 224
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a460d1d52e4b52e7324a706",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 224
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {}
+}
