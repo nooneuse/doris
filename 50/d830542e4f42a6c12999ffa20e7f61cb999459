@@ -1,6 +1,7 @@
 be/src/storage/segment/segment_iterator.cpp
   s_53b5e733b46913::t_c3a4dcaf6033e2 3254
   s_53b5e733b46913::t_9d7405059f2eea 3295,3375-3376,3507-3522,3583-3585
+  s_53b5e733b46913::t_d2e323f147acad 3401 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a472d1752e4b52e7324b428","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":3401}]}]}
 be/src/storage/rowset/beta_rowset_reader.cpp
   s_53b5e733b46913::t_d4d500e97aeffe 69 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a460d2f52e4b52e7324a744","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":69}]}]}
 be/src/storage/segment/segment_iterator.h
@@ -98,6 +99,29 @@ fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
             "line_ranges": [
               {
                 "Single": 120
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "be/src/storage/segment/segment_iterator.cpp": [
+      {
+        "hash": "s_53b5e733b46913::t_d2e323f147acad",
+        "line_ranges": [
+          {
+            "Single": 3401
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a472d1752e4b52e7324b428",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 3401
               }
             ]
           }
