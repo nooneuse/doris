@@ -1,0 +1,65 @@
+gensrc/thrift/PaloInternalService.thrift
+  s_53b5e733b46913::t_4daec6b2901a0b 515 gitai:{"mixed_line_ranges":[],"operations":[{"operation_id":"6a474e1152e4b52e7324b544","tool_type":"agent","tool_id":"apply_patch","line_ranges":[{"Single":515}]}]}
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.5",
+  "base_commit_sha": "0de05a7c4e1f8022bc206c865833c8548b9475fa",
+  "prompts": {},
+  "humans": {
+    "h_cbfb26efde449e": {
+      "author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "sessions": {
+    "s_53b5e733b46913": {
+      "agent_id": {
+        "tool": "trae",
+        "id": "68b6ef41edc2a8d8b3dca331",
+        "model": "gpt-5.5__dev"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {
+    "gensrc/thrift/PaloInternalService.thrift": [
+      {
+        "hash": "s_53b5e733b46913::t_4daec6b2901a0b",
+        "line_ranges": [
+          {
+            "Single": 515
+          }
+        ],
+        "mixed_line_ranges": [],
+        "operations": [
+          {
+            "operation_id": "6a474e1152e4b52e7324b544",
+            "tool_type": "agent",
+            "tool_id": "apply_patch",
+            "line_ranges": [
+              {
+                "Single": 515
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "remote_transcripts": {
+    "s_53b5e733b46913": {
+      "tool": "trae",
+      "conversation_id": "68b6ef41edc2a8d8b3dca331",
+      "session_id": "68b6ef41edc2a8d8b3dca331",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_53b5e733b46913::t_4daec6b2901a0b": {
+      "tool": "trae",
+      "conversation_id": "68b6ef41edc2a8d8b3dca331",
+      "session_id": "68b6ef41edc2a8d8b3dca331",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
