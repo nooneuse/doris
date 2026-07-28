@@ -1,0 +1,29 @@
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1df7825db3fed592818d13d154d2bab066c7324d",
+  "prompts": {},
+  "humans": {
+    "h_cbfb26efde449e": {
+      "author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {
+    "s_baddf157fb5388": {
+      "tool": "trae",
+      "conversation_id": "6a476a8552e4b52e7324b733",
+      "session_id": "6a476a8552e4b52e7324b733",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    },
+    "s_baddf157fb5388::t_da37bc4e8e35dc": {
+      "tool": "trae",
+      "conversation_id": "6a476a8552e4b52e7324b733",
+      "session_id": "6a476a8552e4b52e7324b733",
+      "status": "remote_only",
+      "message": "Remote transcript resolution is not implemented yet for TRAE prompts."
+    }
+  }
+}
