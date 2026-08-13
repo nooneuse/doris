@@ -1,0 +1,37 @@
+fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+  s_76154ac91a50e7::t_471b431275080c 6945-6948,6965-6969
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_76154ac91a50e7::t_9c89340742d4a3 109-113,119-125,149-160,1128-1139
+fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalDatabase.java
+  s_76154ac91a50e7::t_fd2719c1c60002 62,94,126-134,143-146,779
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/AddConstraintCommand.java
+  s_76154ac91a50e7::t_7f1d1ae17aebf0 83,88,117-118,133-134,141,148-155,158-159
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/ConstraintCommandUtils.java
+  s_76154ac91a50e7::t_a8686c423abf88 27-28,37,60-70,78-79,112,117-119,162,166,168,172-219,243-250,272-281
+fe/fe-core/src/test/java/org/apache/doris/alter/SchemaChangeJobV2Test.java
+  s_76154ac91a50e7::t_5015ae11b69684 44,46,53,61,528-569
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_76154ac91a50e7::t_1cef438fffccc0 20-21,25,33-34,91-107
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/commands/ConstraintCommandUtilsTest.java
+  s_76154ac91a50e7::t_9d7993cc0400de 27-29,37,148-153,213-302
+fe/fe-core/src/test/java/org/apache/doris/qe/SqlCacheTest.java
+  s_76154ac91a50e7::t_769fa8911438d3 23,33,47-48,51,59-71
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1880f5a0753d43e30584e3cbd4c7bc37e6f87be8",
+  "prompts": {},
+  "sessions": {
+    "s_76154ac91a50e7": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "s_76154ac91a50e7",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
