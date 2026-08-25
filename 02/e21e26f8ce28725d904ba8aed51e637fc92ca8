@@ -1,0 +1,57 @@
+fe/fe-core/src/main/java/org/apache/doris/alter/Alter.java
+  s_f53801d87886ba::t_c99d587739d9b3 37,741-754,757-766,768-779,781-783
+fe/fe-core/src/main/java/org/apache/doris/backup/AbstractJob.java
+  s_f53801d87886ba::t_4cdc5f2180a3ef 93-94,159-166
+fe/fe-core/src/main/java/org/apache/doris/backup/BackupHandler.java
+  s_f53801d87886ba::t_25bced753d8644 44,641-651,653-659,663-673
+fe/fe-core/src/main/java/org/apache/doris/backup/BackupJob.java
+  s_f53801d87886ba::t_c0a18951256633 39,614-617,1001,1133,1212-1233
+fe/fe-core/src/main/java/org/apache/doris/backup/BackupMeta.java
+  s_f53801d87886ba::t_bcd5a4c1f2cfd8 22,97-103
+fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java
+  s_f53801d87886ba::t_9223861d8e74e5 56,72-73,298,1670,2123,2177-2182,2184-2218,2570,2690-2693,2858-2874,2964-2995
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_2058be9ea0a839 197-206,247-255,575,577,584,598-602,606,643,647-648,650,687,691,694,704,708,710,714,721-741
+fe/fe-core/src/main/java/org/apache/doris/datasource/MetastoreEventSyncDriver.java
+  s_f53801d87886ba::t_e62f8289346ac4 36,278,296,335-348
+fe/fe-core/src/main/java/org/apache/doris/datasource/plugin/PluginDrivenExternalCatalog.java
+  s_f53801d87886ba::t_6823b042f21c71 71,663-664,862-864,879-880,1365-1366,1371-1382
+fe/fe-core/src/main/java/org/apache/doris/mtmv/MTMVUtil.java
+  s_f53801d87886ba::t_ec2a654eea5b06 59,156-162,174-185
+fe/fe-core/src/main/java/org/apache/doris/persist/EditLog.java
+  s_f53801d87886ba::t_b04a6788597cdb 1566-1567
+fe/fe-core/src/test/java/org/apache/doris/alter/AlterReplaceTableTest.java
+  s_f53801d87886ba::t_10abd0ecf149b8 1-80
+fe/fe-core/src/test/java/org/apache/doris/backup/BackupHandlerTest.java
+  s_f53801d87886ba::t_2ed095aaaf3f6f 33,37,71-72,145-168
+fe/fe-core/src/test/java/org/apache/doris/backup/BackupJobTest.java
+  s_f53801d87886ba::t_7d10b4da4d5c12 29-30,63,361-386
+fe/fe-core/src/test/java/org/apache/doris/backup/RestoreJobTest.java
+  s_f53801d87886ba::t_a7e699bbc65a4e 52,82,186,271-311,602-609,657-665,688-718,720-721,726-729,759,792-801
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_0bfdfe8023cb35 20-21,197-204,319-337,614,616,641,645,787,794,804,810
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverRenameTest.java
+  s_f53801d87886ba::t_f52c1746208716 28,179-181,187-188,193-194,204,217-220,226-227,232-233
+fe/fe-core/src/test/java/org/apache/doris/datasource/plugin/PluginDrivenExternalCatalogDdlRoutingTest.java
+  s_f53801d87886ba::t_3f17bca49d4654 58,81,281-284,286-290,391-393,399-403,422,1060-1068,1072,1128-1131,1133-1137
+fe/fe-core/src/test/java/org/apache/doris/persist/EditLogTest.java
+  s_f53801d87886ba::t_14f319cb82cc51 22,27,48-51,107,112-119,121,127,132-149,151-153
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "02e21e26f8ce28725d904ba8aed51e637fc92ca8",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
