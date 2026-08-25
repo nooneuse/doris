@@ -1,0 +1,33 @@
+fe/fe-connector/fe-connector-hms/src/main/java/org/apache/doris/connector/hms/event/HmsEventParser.java
+  s_f53801d87886ba::t_446288c0781263 47,49,131-132,210-224
+fe/fe-connector/fe-connector-hms/src/test/java/org/apache/doris/connector/hms/event/HmsEventParserTest.java
+  s_f53801d87886ba::t_36f6f8feb89e62 24-25,35-36,121-151,160,193-203
+fe/fe-connector/fe-connector-spi/src/main/java/org/apache/doris/connector/spi/event/MetastoreChangeDescriptor.java
+  s_f53801d87886ba::t_ca53dc35c3b969 86,92-93,99-101,112-113,119,123-129,139,145,173-177,197
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_f1b2e13227dada 656-701,1009-1010,1019-1036
+fe/fe-core/src/main/java/org/apache/doris/datasource/MetastoreEventSyncDriver.java
+  s_f53801d87886ba::t_53e905f6080bf6 312-314,345-355,372-373
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_6fd1272c8abe2f 625-658
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverRenameTest.java
+  s_f53801d87886ba::t_ea4fed69b5b54c 21,37,83-165
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "9ed897a1731c087b2504b7516fcbf13ea004b848",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
