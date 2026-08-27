@@ -1,0 +1,55 @@
+fe/fe-connector/fe-connector-spi/src/test/java/org/apache/doris/connector/spi/ConnectorPluginSurfaceTest.java
+  s_f53801d87886ba::t_7cdf3a48695105 20-23,80-82,95-98
+fe/fe-connector/fe-connector-spi/src/test/resources/connector-plugin-surface.txt
+  s_f53801d87886ba::t_d22c546058760b 54-81
+fe/fe-connector/pom.xml
+  s_f53801d87886ba::t_4f3b745463b91c 58
+fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+  s_f53801d87886ba::t_cdbfd84689dd13 1244,1755-1757
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_d75a10e4382276 53,57,62,86,91-173,463-465,483-485,536,543,550,739,753-778,780-783,785-791,793-797,799-801,822-823,830-896,905,911-917,980-1006,1009-1010,1013-1052,1056-1236,1342,1396-1398,1715,1718-1720,1722
+fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalMetaIdMgr.java
+  s_f53801d87886ba::t_d0359ccdbfb3fa 21,24,31,122-146,153-160
+fe/fe-core/src/main/java/org/apache/doris/datasource/MetastoreEventSyncDriver.java
+  s_f53801d87886ba::t_98c145e5ecf9ee 23,38-39,69-70,80-86,106-107,191-194,196-197,208-209,214,232-234,244-273,276-279,282-290,297,303-304,319-323,331-341,350-356,366-378,381-387,411-418,424-425,429-434,439-447,452-500,580-581,583-588,593-594,597-616,632-664
+fe/fe-core/src/main/java/org/apache/doris/datasource/log/MetaIdMappingsLog.java
+  s_f53801d87886ba::t_0f1d43dfc72af4 58-61,70,82-83
+fe/fe-core/src/main/java/org/apache/doris/datasource/plugin/PluginDrivenExternalCatalog.java
+  s_f53801d87886ba::t_bff6792e03eeb6 84,111,126-130,150-170
+fe/fe-core/src/main/java/org/apache/doris/persist/EditLog.java
+  s_f53801d87886ba::t_3680b36c56f1e5 117,124,140-150,157,166-175,196-199,258-259,263-265,270,287-290,300,312-325,1740-1758
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerMetastoreMutationTest.java
+  s_f53801d87886ba::t_5c9279b03234ed 1-481
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_e85274ef40de3b 23,32-33,662-692
+fe/fe-core/src/test/java/org/apache/doris/connector/ConnectorPluginManagerTest.java
+  s_f53801d87886ba::t_92753a10b9a2e2 256-263
+fe/fe-core/src/test/java/org/apache/doris/datasource/ExternalMetaIdMgrTest.java
+  s_f53801d87886ba::t_0e541bf08a4f96 21-24,27-28,30,33,37-38,95-96,106-109,111,117,125-214,216-238,243-251,253-254,257-259,267-271,274-279
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverClassLoaderTest.java
+  s_f53801d87886ba::t_996d5e758d2057 22,26,131,137-139,172-196,211-213,240
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverMappedNameTest.java
+  s_f53801d87886ba::t_ed46a1fc4cd17d 36,136-137
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverRenameTest.java
+  s_f53801d87886ba::t_190dfd69f9b474 24,26,28-30,33,36-37,39-40,50-52,56-179,193,212,219-365,367,369-458,460-461,463-583,594-598,600,603-606,625,632-634,636-640,643,663,686,713,743,779-780,818-819,833-840
+fe/fe-core/src/test/java/org/apache/doris/persist/EditLogTest.java
+  s_f53801d87886ba::t_7ad9575a13abad 189-256
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8f58bf8ae6070d070f869e574571794977cf4658",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
