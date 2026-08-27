@@ -1,0 +1,33 @@
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_080ca9211e7165 994-1023,1025-1041,1043-1059,1066,1072,1302-1303
+fe/fe-core/src/main/java/org/apache/doris/datasource/CatalogMgr.java
+  s_f53801d87886ba::t_7ec3a1305a56d4 140,145-156,366,399,412,682,699,705-706
+fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalCatalog.java
+  s_f53801d87886ba::t_5470aa69c10ab2 86,179-180,235-277,279,282,288,308,311-312,322-327,1283
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerMetastoreMutationTest.java
+  s_f53801d87886ba::t_5f396c80186b0a 100-126
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_2758da0729be95 602-625,883-926,1005-1030
+fe/fe-core/src/test/java/org/apache/doris/datasource/CatalogMgrTest.java
+  s_f53801d87886ba::t_22bf168b717e43 24,30-31,34,52,84-95,183-296
+fe/fe-core/src/test/java/org/apache/doris/datasource/ExternalCatalogTest.java
+  s_f53801d87886ba::t_2516b9e40f5daf 65,1536-1567
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "849074cded95c3d9fb6dd39e0112bb94ddfa56e5",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
