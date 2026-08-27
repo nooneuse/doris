@@ -1,0 +1,1745 @@
+.licenserc.yaml
+  s_f53801d87886ba::t_45c04792c928e5 150
+be/benchmark/benchmark_variant_segment.hpp
+  s_f53801d87886ba::t_23d4d3e70dae22 168,541-542,556-559,607,815,1505-1507,1516,1529
+be/benchmark/parquet/benchmark_parquet_kernels.hpp
+  s_f53801d87886ba::t_1a7d6948005604 239-242
+be/src/cloud/cloud_internal_service.cpp
+  s_f53801d87886ba::t_d9950cffb95f8d 41,48,247-248,252,257,261,272-273,276,282-283,328-330,1058-1059,1064,1071,1083,1287-1288,1290,1363,1379,1416-1419
+be/src/cloud/cloud_meta_mgr.cpp
+  s_f53801d87886ba::t_404a7967f5801f 68,1313-1314,1319,1326-1331,1339-1340,2396,2398,2427,2429,2455,2458
+be/src/cloud/cloud_rowset_builder.cpp
+  s_f53801d87886ba::t_862d80285f48f3 142
+be/src/cloud/cloud_rowset_writer.cpp
+  s_f53801d87886ba::t_610117ba5f4bdb 44-47,93-94,99-100
+be/src/cloud/cloud_rowset_writer.h
+  s_f53801d87886ba::t_282d36612c22b5 36-37
+be/src/cloud/cloud_snapshot_mgr.cpp
+  s_f53801d87886ba::t_689d79969f500f 43,238-240,273
+be/src/cloud/cloud_tablet.cpp
+  s_f53801d87886ba::t_931c54d6232fe8 716-719,721-722,797-800,803-804,1389-1392,1437-1440,1453,1458-1463,1469-1470,1472-1474,1502-1503,1828-1829,1845-1846,1936,1954-1955,1970-1973,1981,1986,1992-1993,2000,2005,2007-2008
+be/src/cloud/cloud_tablet.h
+  s_f53801d87886ba::t_9bdb22d6e086d8 74,446-447
+be/src/cloud/cloud_warm_up_manager.cpp
+  s_f53801d87886ba::t_0731588b2cb12e 306-307,314-316,318,334,336,342-343,348,364,379,388,841-842,852,854,867,872,882,965
+be/src/cloud/pb_convert.cpp
+  s_f53801d87886ba::t_81fe669ecbfc45 70,168,280,378,507-509,571-573,648-650,713-715
+be/src/common/config.cpp
+  s_f53801d87886ba::t_58aaecd11461f8 1964
+be/src/common/config.h
+  s_f53801d87886ba::t_20eb1a2167f52e 1985
+be/src/core/data_type_serde/data_type_decimal_serde.cpp
+  s_f53801d87886ba::t_f574c808016f82 693-695
+be/src/core/data_type_serde/data_type_number_serde.cpp
+  s_f53801d87886ba::t_ba9ed0c58a1ef0 1672,1674
+be/src/exec/operator/olap_scan_operator.cpp
+  s_f53801d87886ba::t_f1eef4c968ea26 133-134,660,675-676,682-684,748-750,839-840,1121-1123,1125-1137,1142-1168
+be/src/exec/operator/olap_scan_operator.h
+  s_f53801d87886ba::t_1e7104fd8b23a1 30,82,140-142,144-145,164
+be/src/exec/operator/scan_operator.cpp
+  s_f53801d87886ba::t_62594cd54e87dc 77,82-85,91-96,109,112,117,127,236-237
+be/src/exec/operator/scan_operator.h
+  s_f53801d87886ba::t_927efade6bdd62 115-118,120,295
+be/src/exec/runtime_filter/runtime_filter_bucket_pruner.cpp
+  s_f53801d87886ba::t_88b3513d89fe66 1-150
+be/src/exec/runtime_filter/runtime_filter_bucket_pruner.h
+  s_f53801d87886ba::t_4a3c4f4a473a6a 1-55
+be/src/exec/runtime_filter/runtime_filter_consumer.cpp
+  s_f53801d87886ba::t_71d90f1364be31 107
+be/src/exec/runtime_filter/runtime_filter_partition_pruner.cpp
+  s_f53801d87886ba::t_fff29950fe768e 858-867,869-872,874-876,878-879,881,883-891,893-894,896-897,899,901-904,906-908,910,914-915,918-920
+be/src/exec/runtime_filter/runtime_filter_partition_pruner.h
+  s_f53801d87886ba::t_53ca4df074f7cb 136-137
+be/src/exec/runtime_filter/runtime_filter_wrapper.cpp
+  s_f53801d87886ba::t_af263190964e8b 21,25,129,621-666
+be/src/exec/runtime_filter/runtime_filter_wrapper.h
+  s_f53801d87886ba::t_d68025802c278e 22-25,28,90-94,170-173
+be/src/exec/scan/olap_scanner.cpp
+  s_f53801d87886ba::t_8615742e31c9bf 108-109,655-672
+be/src/exec/scan/olap_scanner.h
+  s_f53801d87886ba::t_f818f072ab4535 83-84,99-101,128-129
+be/src/exec/scan/parallel_scanner_builder.cpp
+  s_f53801d87886ba::t_31ed3a5619ac1d 83-85,147,194,213-215,247,302-303,316-317
+be/src/exec/scan/parallel_scanner_builder.h
+  s_f53801d87886ba::t_2eb31605c0c081 46,58-65,87,123
+be/src/exec/scan/scanner.h
+  s_f53801d87886ba::t_ddb7b810ca67cb 214-222
+be/src/exec/scan/scanner_scheduler.cpp
+  s_f53801d87886ba::t_b8c6a4ea073ddc 179-185,193-198,207-216,225,227-228
+be/src/exec/sink/writer/vtablet_writer.cpp
+  s_f53801d87886ba::t_db9b21fe1ea746 940-941,967,1647,2163,2165-2166,2188,2194,2219,2225
+be/src/exec/sink/writer/vtablet_writer.h
+  s_f53801d87886ba::t_be77ccbd2893ad 229,726-727
+be/src/exprs/function/function_string_misc.cpp
+  s_f53801d87886ba::t_b0b95fd025304a 28,145-147,149,262-264,300,304,308,310,312,314
+be/src/exprs/function/function_string_search.cpp
+  s_f53801d87886ba::t_ad482abb6ec38b 834-838,843-845
+be/src/exprs/runtime_filter_expr.cpp
+  s_f53801d87886ba::t_ac351bfcad4b5e 33,62-63,69-70,81,88-93
+be/src/exprs/runtime_filter_expr.h
+  s_f53801d87886ba::t_3ddf163c4da703 49,58-59,129-131,160
+be/src/format/parquet/parquet_block_split_bloom_filter.cpp
+  s_f53801d87886ba::t_25b040e25fdec4 26-41,56-57,71,75-84,94-95
+be/src/format/parquet/parquet_block_split_bloom_filter.h
+  s_f53801d87886ba::t_3a12e5e570b107 22,40,43-44,69-70
+be/src/format/parquet/parquet_predicate.h
+  s_f53801d87886ba::t_8fbb7383da49b2 447-451,453-455,457-463,465,467-468,472-476,481,485-499,501-505,507-511,513
+be/src/format/parquet/vparquet_reader.cpp
+  s_f53801d87886ba::t_b4a452f77aff6a 1510-1511,1570,1613-1618,1628
+be/src/format/table/table_schema_change_helper.h
+  s_f53801d87886ba::t_c52a951512ef0b 80-83,190-191
+be/src/io/file_factory.cpp
+  s_f53801d87886ba::t_bf4d25a3c08a2d 55,275-280,282-284
+be/src/io/fs/packed_file_manager.h
+  s_f53801d87886ba::t_85c66872853319 60
+be/src/io/fs/packed_file_system.cpp
+  s_f53801d87886ba::t_7c41d9edb83532 20,44-45,64,97
+be/src/load/channel/load_stream.cpp
+  s_f53801d87886ba::t_ee6e6b3b100f91 528-560,798-799,801-803,805-814,816-823
+be/src/load/channel/load_stream.h
+  s_f53801d87886ba::t_0b39b73c3e48cf 139-141,145-151,201-207
+be/src/load/channel/tablets_channel.cpp
+  s_f53801d87886ba::t_f11c843b3c159d 630-632,634-635,637,794-795,797,923,929-930,943-944
+be/src/load/delta_writer/delta_writer_context.h
+  s_f53801d87886ba::t_bfdb1e44059701 63
+be/src/load/memtable/memtable.cpp
+  s_f53801d87886ba::t_75d80a994e5b72 32,57,64,85,192,213,215-216,218,222-223,225,271-276,279,286-288,292-294,300,340,389-390,394,453-454,458-459,461-463,495,559,652,706,817,822-823,825,843-844
+be/src/load/memtable/memtable.h
+  s_f53801d87886ba::t_c67b5ad27b47ff 37,56,62-63,181,198,222,224-225,227,260,270-271
+be/src/load/memtable/memtable_flush_executor.cpp
+  s_f53801d87886ba::t_e3cbd43769a7d8 122-125,190-191,193-194,204,206,317-325
+be/src/load/memtable/memtable_flush_executor.h
+  s_f53801d87886ba::t_ba7324c41f7c38 41,67-68
+be/src/load/memtable/memtable_writer.cpp
+  s_f53801d87886ba::t_bcd1dc9865ddd3 86-87,91,96,103,105,129,146-147,149,152,273
+be/src/load/memtable/memtable_writer.h
+  s_f53801d87886ba::t_e58d570f5302a5 127
+be/src/service/backend_service.cpp
+  s_f53801d87886ba::t_ad154b5c79e779 391-392
+be/src/service/http/action/check_encryption_action.cpp
+  s_f53801d87886ba::t_d561c9b3b717fa 81,132
+be/src/storage/AGENTS.md
+  s_f53801d87886ba::t_c29143f58396be 36-75
+be/src/storage/adaptive_thread_pool_controller.h
+  s_f53801d87886ba::t_5fed7dffc5d150 83
+be/src/storage/binlog.h
+  s_f53801d87886ba::t_e173eedc202d9d 35-36,140,142-143,145,172,174,179,184,187-188,205
+be/src/storage/compaction/compaction.cpp
+  s_f53801d87886ba::t_a06a9727a557dd 38,96,908-933,948-951,1014-1015,1026,1044,1259-1261,1271,1275,1277-1280,1296,1379,1381,1398,1525-1526,1538,1815-1816,1915-1917,1936,2378-2385,2387-2399
+be/src/storage/data_dir.cpp
+  s_f53801d87886ba::t_c51265409d91a4 1112-1113
+be/src/storage/index/inverted/similarity/collection_statistics.cpp
+  s_f53801d87886ba::t_6e7e451f2048fb 107-108,211-212,216,222
+be/src/storage/index/inverted/similarity/collection_statistics.h
+  s_f53801d87886ba::t_bbdc3760dd997e 49,85
+be/src/storage/index/snii/query/count_query.h
+  s_f53801d87886ba::t_f8a393196111e8 50-60,64-70
+be/src/storage/index/snii/snii_index_reader.cpp
+  s_f53801d87886ba::t_30e4c9dd02ef21 1057-1058,1093-1116,1129-1151,1153-1157
+be/src/storage/index/snii/snii_index_reader.h
+  s_f53801d87886ba::t_c380d86a03dbd3 72-78,81-86,169-174,185-191
+be/src/storage/iterator/block_reader.cpp
+  s_f53801d87886ba::t_c91a7eea246621 219-223,246-266
+be/src/storage/merger.cpp
+  s_f53801d87886ba::t_2c65c11cc58d6a 80-85
+be/src/storage/rowid_conversion.h
+  s_f53801d87886ba::t_aac384f783485d 36-40,44-46,68-71,86,97-99,103,107-108,110,119-120,124,161,176-177
+be/src/storage/rowset/beta_rowset.cpp
+  s_f53801d87886ba::t_1ed1333d70e99a 32,182-183,195-196,209-210,237-238,247,249,258-264,270-271,277,283,285,316-317,609-610,629-630,638,643-645,766-767,860,862,864
+be/src/storage/rowset/beta_rowset.h
+  s_f53801d87886ba::t_cb79213afb5972 82-85
+be/src/storage/rowset/beta_rowset_reader.cpp
+  s_f53801d87886ba::t_01429e40dee77d 160-161,262-268,272-273,283,293
+be/src/storage/rowset/beta_rowset_reader.h
+  s_f53801d87886ba::t_29cfde05ca93eb 64
+be/src/storage/rowset/beta_rowset_writer.cpp
+  s_f53801d87886ba::t_727d25447e0e1b 134-137,371-373,465-466,470,683,700,1046-1047,1053,1055-1056,1059-1065,1067-1072,1103-1113,1136-1139,1160-1161,1166,1277-1278,1280,1290-1292,1294,1309-1310
+be/src/storage/rowset/beta_rowset_writer.h
+  s_f53801d87886ba::t_1c66d807ea3fd7 170-172,178-182,217-220,321
+be/src/storage/rowset/beta_rowset_writer_v2.cpp
+  s_f53801d87886ba::t_3b0aa8ad8b4e30 64-67
+be/src/storage/rowset/beta_rowset_writer_v2.h
+  s_f53801d87886ba::t_465e0dc0154236 115-117
+be/src/storage/rowset/group_rowset_writer.cpp
+  s_f53801d87886ba::t_c06548607ca694 35-52,89-90,99,102-103
+be/src/storage/rowset/group_rowset_writer.h
+  s_f53801d87886ba::t_70abcc3f18f59c 42,108,118-119
+be/src/storage/rowset/rowset.cpp
+  s_f53801d87886ba::t_48d3665215c55a 20,30,113-121,135,142-143,194-196,207-208,236-284
+be/src/storage/rowset/rowset.h
+  s_f53801d87886ba::t_74e9adae15975c 28,33,36,39,48-50,328-329,389-466
+be/src/storage/rowset/rowset_fwd.h
+  s_f53801d87886ba::t_c089075df0d66d 22,40-41
+be/src/storage/rowset/rowset_meta.cpp
+  s_f53801d87886ba::t_2bad9194dd5b48 23-24,273,277-308,316,318-319,321-322,442,444-445
+be/src/storage/rowset/rowset_meta.h
+  s_f53801d87886ba::t_a54c91322f8ada 26,28,34,43,50-52,269-273,277-296,340-341,343-344,475,479,486,555-556,572-655
+be/src/storage/rowset/rowset_segment_id.h
+  s_f53801d87886ba::t_b14aff42822487 1-57
+be/src/storage/rowset/rowset_writer.h
+  s_f53801d87886ba::t_5c5b04b9df2f35 25,73-74,181,188-190
+be/src/storage/rowset/rowset_writer_context.h
+  s_f53801d87886ba::t_9ac04332f62997 24-25,29,145-148,160-165,186-208,274
+be/src/storage/rowset/segment_creator.cpp
+  s_f53801d87886ba::t_13ec80bf30bc68 445-446,454-455
+be/src/storage/rowset/segment_creator.h
+  s_f53801d87886ba::t_a291f22252ff20 23,196-208,214-233,257-258,265-266
+be/src/storage/rowset/vertical_beta_rowset_writer.cpp
+  s_f53801d87886ba::t_9118445c3d8425 162-164,169-170,205-222
+be/src/storage/rowset/vertical_beta_rowset_writer.h
+  s_f53801d87886ba::t_517d550c61760d 52-53
+be/src/storage/rowset_builder.cpp
+  s_f53801d87886ba::t_9320520a1d3236 533
+be/src/storage/segment/column_reader.cpp
+  s_f53801d87886ba::t_c0f587a8d88fa1 733-735
+be/src/storage/segment/encoding_info.cpp
+  s_f53801d87886ba::t_c43d25a2206e03 389-390
+be/src/storage/segment/lazy_init_segment_iterator.cpp
+  s_f53801d87886ba::t_fed43e87c331bb 24-26,29,45
+be/src/storage/segment/lazy_init_segment_iterator.h
+  s_f53801d87886ba::t_b7fad685e9ec78 21,34-36,66,72
+be/src/storage/segment/segment_iterator.cpp
+  s_f53801d87886ba::t_da065585c2f1d4 1564-1572,3603-3605
+be/src/storage/segment/segment_loader.cpp
+  s_f53801d87886ba::t_1ff204f6d7cd3a 26,56,62,77,105-107,117-119
+be/src/storage/segment/segment_loader.h
+  s_f53801d87886ba::t_25f6ebb646c402 44-45,131,139
+be/src/storage/snapshot/snapshot_manager.cpp
+  s_f53801d87886ba::t_4da3a2f4b769d9 781-782
+be/src/storage/tablet/base_tablet.cpp
+  s_f53801d87886ba::t_4ff6e0a999aa3e 876,893,1679,1754,1760,1786-1788,1791,1793,1796-1797,1808,1818-1819,1861-1862,1875-1876,2001-2002,2315-2317
+be/src/storage/tablet/base_tablet.h
+  s_f53801d87886ba::t_905c1a442d1418 272
+be/src/storage/tablet/tablet.cpp
+  s_f53801d87886ba::t_6dbf894f517868 2162,2740-2741,2934-2935,2959-2960,2981,2983
+be/src/storage/tablet/tablet.h
+  s_f53801d87886ba::t_4f345dbea09fe1 417-418
+be/src/storage/tablet/tablet_meta.cpp
+  s_f53801d87886ba::t_bef699e39d02ec 398-400,593-595,1594-1595,1597,1619,1623-1625,1628
+be/src/storage/tablet/tablet_meta.h
+  s_f53801d87886ba::t_52aa56afa553ef 450,570,578-579
+be/src/storage/tablet/tablet_reader.cpp
+  s_f53801d87886ba::t_aa6606276dbcdb 162
+be/src/storage/tablet/tablet_reader.h
+  s_f53801d87886ba::t_131395c370d6aa 186-188
+be/src/storage/tablet/tablet_schema.cpp
+  s_f53801d87886ba::t_981756a0a2f03e 877-878,1088,1196,1265,1296-1297,1428,1814
+be/src/storage/tablet/tablet_schema.h
+  s_f53801d87886ba::t_a050b89a90e311 525,827
+be/src/storage/task/engine_storage_migration_task.cpp
+  s_f53801d87886ba::t_6a3d957572e312 395-396
+be/src/storage/task/index_builder.cpp
+  s_f53801d87886ba::t_10acce242031ba 204,207,376-377,393
+be/src/storage/transform/row_binlog_derive.cpp
+  s_f53801d87886ba::t_119ec47a19e5d2 194-195
+be/src/storage/transform/row_binlog_derive.h
+  s_f53801d87886ba::t_bb5931f399a6e9 20,44
+be/src/storage/utils.h
+  s_f53801d87886ba::t_c8924d2382092f 43
+be/src/tools/README.md
+  s_f53801d87886ba::t_5cf85791b2eae6 1-439
+be/src/tools/meta_tool.cpp
+  s_f53801d87886ba::t_da0e0fb7043375 24,30,34-35,89-90,102-117,134-142,604-1056,1058-1065,1067-1090,1092-1120,1123-1186,1200,1206-1208,1215-1217,1228-1247,1250,1252-1254,1259-1260,1263-1265,1268-1294,1296-1311,1314-1316,1319-1326,1328-1329,1332-1337,1346,1377-1379,1406-1410,1413-1415,1417,1422-1423,1425-1426,1438-1440,1464-1465,1471-1472,1475-1477,1484-1487,1505-1506,1575-1584,1756-1769,1772-1778
+be/test/core/column/column_nullable_test.cpp
+  s_f53801d87886ba::t_554f7b35c38a81 235-263
+be/test/core/data_type_serde/data_type_serde_decimal_from_string_strict_batch_null_offset_test.cpp
+  s_f53801d87886ba::t_2b6e706665d0dc 1-98
+be/test/core/data_type_serde/data_type_serde_from_string_strict_batch_null_offset_test.cpp
+  s_f53801d87886ba::t_40df356faed5d5 1-99
+be/test/exec/runtime_filter/runtime_filter_bucket_pruner_test.cpp
+  s_f53801d87886ba::t_9f866ece724cd8 1-377
+be/test/exec/scan/scanner_late_arrival_rf_test.cpp
+  s_f53801d87886ba::t_6d0a4837b11015 21-22,24,30,35,37-38,41-44,46,50-51,87-210,281-715
+be/test/exec/scan/vgeneric_iterators_test.cpp
+  s_f53801d87886ba::t_46dffcf4a84f62 53,68-72,481-637
+be/test/exprs/function/function_is_null_test.cpp
+  s_f53801d87886ba::t_b58ac479e98b0a 228-229,362-363
+be/test/exprs/function/function_string_test.cpp
+  s_f53801d87886ba::t_13ca0e73ff9de3 84-110,3846-3848,3874-3876
+be/test/format/parquet/parquet_statistics_test.cpp
+  s_f53801d87886ba::t_0edb8ad70f3545 20-22,24,27,30-110,116-205
+be/test/format/table/table_schema_change_helper_test.cpp
+  s_f53801d87886ba::t_927853c436777f 120-130
+be/test/io/fs/http_file_reader_test.cpp
+  s_f53801d87886ba::t_ba97b2964e3415 1-41
+be/test/io/fs/packed_file_system_test.cpp
+  s_f53801d87886ba::t_fa367c9c2c6a30 287-325
+be/test/load/memtable/memtable_flush_executor_test.cpp
+  s_f53801d87886ba::t_e7673db90ae7fa 68-70,86-91,118,125-126,134,280,482
+be/test/olap/rowset/cloud_group_rowset_builder_writer_test.cpp
+  s_f53801d87886ba::t_9848a6d21c80b6 299-302,317-320
+be/test/olap/rowset/group_rowset_writer_test.cpp
+  s_f53801d87886ba::t_b2a5a7727a5703 190-193,225-229,266-269,283-286
+be/test/runtime/load_stream_test.cpp
+  s_f53801d87886ba::t_6e0de9664b7281 499,506-508,1363-1420
+be/test/storage/adaptive_thread_pool_controller_test.cpp
+  s_f53801d87886ba::t_9c4cc757a714b2 229
+be/test/storage/compaction/vertical_compaction_test.cpp
+  s_f53801d87886ba::t_37314f752ba89a 40,226-238,394-431
+be/test/storage/index/inverted/compaction/index_compaction_test.cpp
+  s_f53801d87886ba::t_1fcae9ece7008d 709-711,719,723-725,733,823-825,831-833,838-839,842
+be/test/storage/index/inverted/compaction/util/index_compaction_utils.h
+  s_f53801d87886ba::t_6f14b93051c069 432,450-452,578,580,584,590,740-744,748,754
+be/test/storage/index/inverted/inverted_index_reader_analysis_purpose_test.cpp
+  s_f53801d87886ba::t_6ec5955f662348 293-294,296-298
+be/test/storage/index/inverted/similarity/collection_statistics_test.cpp
+  s_f53801d87886ba::t_d19210d1eb89bd 189,241
+be/test/storage/index/snii/bench/snii_vs_v3_benchmark_test.cpp
+  s_f53801d87886ba::t_a9cf1e8d5da26f 1248
+be/test/storage/index/snii/format/snii_proto_field_numbers_test.cpp
+  s_f53801d87886ba::t_7f821734d48531 1-103
+be/test/storage/index/snii/snii_doris_adapter_test.cpp
+  s_f53801d87886ba::t_688472df37186d 393-395
+be/test/storage/index/snii/snii_index_reader_count_fallback_test.cpp
+  s_f53801d87886ba::t_4aad6abe8f642a 57-61,63,65,71,213-217,239,523-527,529,534-540,562-722,734-736,1657-1753,2136-2138
+be/test/storage/index/snii/writer/snii_writer_golden_bytes_test.cpp
+  s_f53801d87886ba::t_6fcf80a4f997d7 34-38,311-313,393-395
+be/test/storage/iterator/block_reader_binlog_vcollect_merge_test.cpp
+  s_f53801d87886ba::t_1c55c92367ee4b 1-402
+be/test/storage/iterator/block_reader_min_delta_test.cpp
+  s_f53801d87886ba::t_f8845dc92da38c 139-238
+be/test/storage/mow/mow_transform_test_base.h
+  s_f53801d87886ba::t_d6151f00399061 478
+be/test/storage/row_binlog_vmerge_compaction_test.cpp
+  s_f53801d87886ba::t_91665a1c7bf2ce 1-400
+be/test/storage/rowid_conversion_test.cpp
+  s_f53801d87886ba::t_5c8a0462aab61f 404,410-411,496,498,501,503,513,516-517,523,526,532,535,541,547,552-595
+be/test/storage/rowset/beta_rowset_test.cpp
+  s_f53801d87886ba::t_e67086a0625ea1 38,55,64,238-244,427-513
+be/test/storage/rowset/rowset_meta_test.cpp
+  s_f53801d87886ba::t_70f19c864db2f7 458-583
+be/test/storage/rowset/segment_creator_test.cpp
+  s_f53801d87886ba::t_94b263de1516ba 1-125
+be/test/storage/rowset/segment_flusher_format_test.cpp
+  s_f53801d87886ba::t_84d22f92b5b184 3107,3121
+be/test/storage/segment/bloom_filter_fpp_writer_test.cpp
+  s_f53801d87886ba::t_71874d549ffcd5 157
+be/test/storage/segment/encoding_info_test.cpp
+  s_f53801d87886ba::t_6d7f58d69874a3 94-98,100-102,353-354,356,365-366
+be/test/storage/segment/inverted_index_file_writer_test.cpp
+  s_f53801d87886ba::t_9002e6d0586257 1384
+be/test/storage/segment/segment_iterator_virtual_column_test.cpp
+  s_f53801d87886ba::t_9ad295742cc8a6 1-75
+be/test/storage/tablet/tablet_meta_test.cpp
+  s_f53801d87886ba::t_137ed29567c4c2 386,389-390,392,406-430
+be/test/storage/tablet_reader_test.cpp
+  s_f53801d87886ba::t_3daa3aef156aab 39-40,42
+be/test/storage/transform/row_binlog_derive_test.cpp
+  s_f53801d87886ba::t_a30c5d5ec8fc53 311-315,342,408,499,586,730,808,901,987,1061,1144,1266,1354,1428,1498,1508,1539,1576,1615
+be/test/testutil/index_storage_test_util.cpp
+  s_f53801d87886ba::t_47db5b442de2a9 628-629,639,1566-1567
+cloud/src/common/bvars.cpp
+  s_f53801d87886ba::t_f565fad64634bf 116-125
+cloud/src/common/bvars.h
+  s_f53801d87886ba::t_1c41a770cf260b 627-632
+cloud/src/common/config.h
+  s_f53801d87886ba::t_7dcf391cc61ea7 211-213
+cloud/src/common/rowset_segment_id.h
+  s_f53801d87886ba::t_e213e14643928e 18,20,22,24,26-31,33-34,36-37
+cloud/src/meta-service/http_encode_key.cpp
+  s_f53801d87886ba::t_8cff9329098240 561-568
+cloud/src/meta-service/meta_service_helper.h
+  s_f53801d87886ba::t_4bf27e367d0600 348-353
+cloud/src/meta-service/meta_service_partition.cpp
+  s_f53801d87886ba::t_1ba2bd489e4c6f 33,1278
+cloud/src/meta-service/meta_service_rate_limit_helper.cpp
+  s_f53801d87886ba::t_174dde73136436 567-569,806-820
+cloud/src/meta-service/meta_service_rate_limit_helper.h
+  s_f53801d87886ba::t_2791fd8a29a699 64-71
+cloud/src/meta-service/meta_service_table_stream.cpp
+  s_f53801d87886ba::t_c030782e00cb18 156
+cloud/src/recycler/checker.cpp
+  s_f53801d87886ba::t_84854116664863 37,49,714-715,783,788-789,791-793,796-797,1649-1650,1750-1751,2361-2430,2452,2587-2598,2600
+cloud/src/recycler/recycler.cpp
+  s_f53801d87886ba::t_99a1d5d66e27b8 72,3838-3839,3845,3851-3852,4601-4602,4608,4620,4623,5077-5084,5137-5144
+cloud/test/http_encode_key_test.cpp
+  s_f53801d87886ba::t_b797e8dc4546df 1128-1143,1152-1165,1170-1263
+cloud/test/meta_service_table_stream_test.cpp
+  s_f53801d87886ba::t_d75762d2c26933 22-23,28,32,137-138,148,152-155,228-266,333-368,445-607,626-627,670-673,675,680-688,1188-1675,1937-1948,1950-1966,1968,1971-1972,1974-2145,2218-2289
+cloud/test/meta_service_test.cpp
+  s_f53801d87886ba::t_4c24c88480ac52 33,13639-13790,14087-14204
+cloud/test/recycler_operation_log_test.cpp
+  s_f53801d87886ba::t_d336685e37e8c0 655-703,913-1025,2636,2736-2762
+cloud/test/recycler_test.cpp
+  s_f53801d87886ba::t_de38767df62883 3620-3649,3654,3671-3675,7684-7765
+cloud/test/rpc_kv_bvar_test.cpp
+  s_f53801d87886ba::t_c9ba5ed61aefa4 1021-1112
+cloud/test/table_stream_checker_test.cpp
+  s_f53801d87886ba::t_6435ae06b05084 21-22,40-43,46,59-61,64-69,73-83,114-364
+cloud/test/table_stream_recycler_test.cpp
+  s_f53801d87886ba::t_e5570dfd03477e 20,42-52,57-58,65-101,155-160,175-317,478-588
+docker/runtime/be/resource/be_disaggregated_entrypoint.sh
+  s_f53801d87886ba::t_390072d91fcaad 515-516,520-521,639
+docker/runtime/be/resource/be_entrypoint.sh
+  s_f53801d87886ba::t_48a82e54020327 453-454,458-459,525
+fe/fe-catalog/src/main/java/org/apache/doris/catalog/Column.java
+  s_f53801d87886ba::t_c26d4296c3795c 65,69,80-81,538-541
+fe/fe-common/src/main/java/org/apache/doris/common/Config.java
+  s_f53801d87886ba::t_df81709ea6e092 569-572,3358-3364,3428-3433
+fe/fe-common/src/main/java/org/apache/doris/job/cdc/request/FetchEndOffsetRequest.java
+  s_f53801d87886ba::t_c98a6a06e8405b 1-43
+fe/fe-common/src/main/java/org/apache/doris/job/cdc/response/FetchEndOffsetResult.java
+  s_f53801d87886ba::t_eda5a82dd9c260 1-32
+fe/fe-connector/fe-connector-cache/src/main/java/org/apache/doris/connector/cache/MetaCacheEntry.java
+  s_f53801d87886ba::t_aa9c3787aa6a11 58-59,89-102,119,136-142,288-290,307,331-336
+fe/fe-connector/fe-connector-cache/src/test/java/org/apache/doris/connector/cache/MetaCacheEntryTest.java
+  s_f53801d87886ba::t_3873dc2f767fdb 246-280
+fe/fe-connector/fe-connector-hudi/src/main/java/org/apache/doris/connector/hudi/HudiScanPlanProvider.java
+  s_f53801d87886ba::t_e00e410e16d2d8 295-312,315-317,319-320,805-812
+fe/fe-connector/fe-connector-hudi/src/main/java/org/apache/doris/connector/hudi/MORIncrementalRelation.java
+  s_f53801d87886ba::t_d7f2f7252cc2a4 160-171
+fe/fe-connector/fe-connector-hudi/src/test/java/org/apache/doris/connector/hudi/HudiResourceLifecycleTest.java
+  s_f53801d87886ba::t_a90b5a812f37c1 1-70
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/DorisHiveCatalog.java
+  s_f53801d87886ba::t_ff2c1da5d786ee 1-77
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergCatalogFactory.java
+  s_f53801d87886ba::t_a4ed8a20a5e77a 354
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergCatalogOps.java
+  s_f53801d87886ba::t_9f780071687457 59,115-119,180-183,188-191,196-199,206-210,215-218,271,274,279-286,291-297,304,421-430,447,449,455,457,472-475,488-497,502-511,516-519,524-527,533-536,538-543,545-570,572-578,583-591,596-599,601-616,618-629,634-639,641-662,667-673,678-684,707-719,724-736,741-760
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergCatalogResourceTracker.java
+  s_f53801d87886ba::t_96417f4b9f296f 18,22-24,26-27,29-32,34-36,38-44,47-54,56-71,73-79,81-82,85-94,97-121,125-139,141,143-152,156-162,164-169,171,173-192,196-216,219-271
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergConnector.java
+  s_f53801d87886ba::t_2c079fd23e68e2 54,63,84,98,126-129,186,206,287-288,351,617,620,645,819,829,839,913-986,988-1004,1154-1159,1682-1692,1694-1698,1700-1704,1706-1712,1714
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergConnectorMetadata.java
+  s_f53801d87886ba::t_e353e1c00e34cb 92,149,178,226-236,247,258,269,284,301,314,329,347,383,426,668,686-697,712,931,955,1020,1165,1190,1215,1235,1251,1268,1313,1337-1339,1359,1405,1427,1451,1499,1522,1545,1561,1577,1593,1617,1634,1651,1800-1801,1941,1986,2027,2102-2129,2371-2377
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergConnectorTransaction.java
+  s_f53801d87886ba::t_65fa73a7596c12 133-134,141,152-153,187-196,200-201,219-229,237-260,273-283,285-306,1402-1411
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergProcedureOps.java
+  s_f53801d87886ba::t_7db58f6b742ba9 43,73,90-95,99,191-195,201,205-206,225-229,237,240-241,252-260
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergScanPlanProvider.java
+  s_f53801d87886ba::t_65b885ee050642 120,242,305-311,319,3032,3034-3036,3041-3053,3111-3121
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergStatementScope.java
+  s_f53801d87886ba::t_18c075e936878e 34-36,89-159,167-256
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergTableCache.java
+  s_f53801d87886ba::t_a23b1f0e6d2d05 28-30,64-67,70-80,84-85,100-152,154-156,180-186,193-246
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/IcebergWritePlanProvider.java
+  s_f53801d87886ba::t_6508099a97352d 81,148,166-171,176,1055,1066-1072
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/ReauthenticatingRestSessionCatalog.java
+  s_f53801d87886ba::t_3ca1a42194443a 22,24,26,33,45,85-86,91-96,99-100,108-111,125-138,160-175,177-189,232-236,241-242,252-320
+fe/fe-connector/fe-connector-iceberg/src/main/java/org/apache/doris/connector/iceberg/rewrite/RewriteDataFilePlanner.java
+  s_f53801d87886ba::t_d793470adacf61 36,85,107
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/CatalogBackedIcebergCatalogOpsDdlTest.java
+  s_f53801d87886ba::t_cb8916c29e1a2b 51,121-140
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/DorisHiveCatalogTest.java
+  s_f53801d87886ba::t_27baee90bed8b7 18,20-22,26,28,31-65
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergCatalogFactoryTest.java
+  s_f53801d87886ba::t_3f510b3cd0b307 102,153,801
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergCatalogOptionsSnapshotTest.java
+  s_f53801d87886ba::t_d01179fbdb764c 524
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergCatalogResourceTrackerTest.java
+  s_f53801d87886ba::t_6bd3453f965c1e 1-93
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergConnectorCacheTest.java
+  s_f53801d87886ba::t_1a6880fc66428b 32-34,293-357
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergConnectorTransactionTest.java
+  s_f53801d87886ba::t_3ab7aa947242af 78,419-463
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergProcedureOpsTest.java
+  s_f53801d87886ba::t_1eff477f442172 44,172,298,415-437
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergStatementScopeTest.java
+  s_f53801d87886ba::t_dc4522950d012d 215-304
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/IcebergTableCacheTest.java
+  s_f53801d87886ba::t_b8b7b2d21903b0 30-32,118-213
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/ReauthenticatingRestSessionCatalogTest.java
+  s_f53801d87886ba::t_29d7d7b26bf2c8 20-22,25,27,32,36-37,39,54-57,79-107,233-390
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/RecordingIcebergCatalogOps.java
+  s_f53801d87886ba::t_26999b9f1ca906 38,82-85,225-240
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/TestStatementScope.java
+  s_f53801d87886ba::t_73902b576647cb 23,36,43-59
+fe/fe-connector/fe-connector-iceberg/src/test/java/org/apache/doris/connector/iceberg/rewrite/RewriteDataFilePlannerTest.java
+  s_f53801d87886ba::t_b45579142b56aa 37,45,55,57,59,267-306
+fe/fe-core/src/main/java/org/apache/doris/analysis/LimitElement.java
+  s_f53801d87886ba::t_c7ca4862251c8b 23-24,67-91
+fe/fe-core/src/main/java/org/apache/doris/analysis/PartitionKeyDesc.java
+  s_f53801d87886ba::t_3a1cf89f32db8d 21,174-190
+fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+  s_f53801d87886ba::t_c10cca09b556a2 7468-7516
+fe/fe-core/src/main/java/org/apache/doris/catalog/JdbcResource.java
+  s_f53801d87886ba::t_6df446d0070ac2 26-27,452-463
+fe/fe-core/src/main/java/org/apache/doris/catalog/OlapTable.java
+  s_f53801d87886ba::t_ec6e06bbaef3f2 2392-2396
+fe/fe-core/src/main/java/org/apache/doris/catalog/stream/TableStreamBuildFactory.java
+  s_f53801d87886ba::t_de00e6e449c67c 22,65-71
+fe/fe-core/src/main/java/org/apache/doris/cloud/catalog/CloudEnv.java
+  s_f53801d87886ba::t_4aafaa5a38b269 29,31,513-576
+fe/fe-core/src/main/java/org/apache/doris/cloud/catalog/CloudReplica.java
+  s_f53801d87886ba::t_65e66575f39c66 26,392,396-419,431,626-669,743-747
+fe/fe-core/src/main/java/org/apache/doris/cloud/catalog/CloudTabletRebalancer.java
+  s_f53801d87886ba::t_69fc24c8ed26f0 108-110,1009-1038,1042-1049,1061-1070,1139-1140,1863-1870
+fe/fe-core/src/main/java/org/apache/doris/cloud/datasource/CloudInternalCatalog.java
+  s_f53801d87886ba::t_d768e896c9cc68 511,523-525,530
+fe/fe-core/src/main/java/org/apache/doris/cloud/rpc/MetaServiceRpcRateLimiter.java
+  s_f53801d87886ba::t_a4ede134074069 71,73-86,95-107,124
+fe/fe-core/src/main/java/org/apache/doris/common/plugin/CloudPluginDownloader.java
+  s_f53801d87886ba::t_196efc70d49cb6 1-157
+fe/fe-core/src/main/java/org/apache/doris/common/proc/BuildIndexProcDir.java
+  s_f53801d87886ba::t_d57c5a1e333dda 253,310
+fe/fe-core/src/main/java/org/apache/doris/common/proc/PartitionsProcDir.java
+  s_f53801d87886ba::t_8a849768a770ae 317,362
+fe/fe-core/src/main/java/org/apache/doris/common/proc/RollupProcDir.java
+  s_f53801d87886ba::t_b5726bfc44494c 148,216
+fe/fe-core/src/main/java/org/apache/doris/common/proc/SchemaChangeProcDir.java
+  s_f53801d87886ba::t_494b328d7f14dd 267,324
+fe/fe-core/src/main/java/org/apache/doris/datasource/InternalCatalog.java
+  s_f53801d87886ba::t_e9d627063dc2c8 2502
+fe/fe-core/src/main/java/org/apache/doris/datasource/plugin/PluginDrivenExternalCatalog.java
+  s_f53801d87886ba::t_71f688f8421e54 41,376,388-389,396-416,1452-1456,1462-1467,1498-1500,1510,1517
+fe/fe-core/src/main/java/org/apache/doris/datasource/plugin/PluginDrivenExternalTable.java
+  s_f53801d87886ba::t_1abb3f48a2146b 492-510,512-515,1166-1179,1205-1213,1275-1280,1282,1373-1383,1385-1386
+fe/fe-core/src/main/java/org/apache/doris/job/extensions/insert/InsertJob.java
+  s_f53801d87886ba::t_c24339c3f3fb90 108-109,576
+fe/fe-core/src/main/java/org/apache/doris/job/extensions/insert/streaming/StreamingInsertJob.java
+  s_f53801d87886ba::t_6534bf5b9429c2 1003,1006-1015,1078,1176-1179
+fe/fe-core/src/main/java/org/apache/doris/job/offset/SourceOffsetProvider.java
+  s_f53801d87886ba::t_429b53ae1bf703 209-222,224
+fe/fe-core/src/main/java/org/apache/doris/job/offset/jdbc/JdbcSourceOffsetProvider.java
+  s_f53801d87886ba::t_f87cdf3baaa9ed 27,30,111-112,311-317,334-335,342-344,357-380,984-1000,1016-1017,1020-1024,1026-1029,1031-1054
+fe/fe-core/src/main/java/org/apache/doris/load/loadv2/BrokerLoadJob.java
+  s_f53801d87886ba::t_32e613b544d2f7 157-158,161-169,173,175,181-183
+fe/fe-core/src/main/java/org/apache/doris/metric/MetricRepo.java
+  s_f53801d87886ba::t_b00bac682315e4 103-107,1385-1387,1472-1473,1476,1482-1509
+fe/fe-core/src/main/java/org/apache/doris/nereids/glue/translator/RuntimeFilterTranslator.java
+  s_f53801d87886ba::t_a1b29d950474ae 238,241,334,364-366,373-376
+fe/fe-core/src/main/java/org/apache/doris/nereids/jobs/executor/AbstractBatchJobExecutor.java
+  s_f53801d87886ba::t_c34afe43af96e4 159-162
+fe/fe-core/src/main/java/org/apache/doris/nereids/parser/LogicalPlanBuilder.java
+  s_f53801d87886ba::t_b96f40786ea997 93,637,1935-1940,3210,3223,3256-3259
+fe/fe-core/src/main/java/org/apache/doris/nereids/processor/post/RuntimeFilterContext.java
+  s_f53801d87886ba::t_bd9f057262e03b 93-100
+fe/fe-core/src/main/java/org/apache/doris/nereids/processor/post/RuntimeFilterPruneClassifier.java
+  s_f53801d87886ba::t_d307cdf473771a 18,25-26,29,38,42-44,48,55-57,60-68,70-73,75-76,78-79,81-90,92-95,98-102,104-106,108-110,112-133,136-139,141-145,147-183,185-186,190,192-219,221-257,272-273,276,284-287,291-292,295-296,298,305-310,314-315,317,321,323-325,329,368,370,390-421,424-425,429-430,433-434,436,438-440,442-445,448-450,453-454
+fe/fe-core/src/main/java/org/apache/doris/nereids/processor/post/RuntimeFilterPushDownVisitor.java
+  s_f53801d87886ba::t_a0e938a6fcb498 200
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/analysis/DatetimeFunctionBinder.java
+  s_f53801d87886ba::t_9ed9e28c232a29 58,60,333-334,381-382
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/exploration/mv/AbstractMaterializedViewRule.java
+  s_f53801d87886ba::t_e21458456ec775 968-970
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/exploration/mv/StructInfo.java
+  s_f53801d87886ba::t_1fdefd1312c8fa 978-981,983
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/expression/rules/InferPredicateFromMonotonicFunction.java
+  s_f53801d87886ba::t_bdb11f1794824c 18,20-23,25-29,31-40,44-45,47-48,50,53-82,85-130,134-136,138-195,197-203,206-210,212-213,215-236,238-239,241-245,247,250-336
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/expression/rules/PartitionPruner.java
+  s_f53801d87886ba::t_3a37f0f057e3bb 188-190
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/AccessPathExpressionCollector.java
+  s_f53801d87886ba::t_710effd1c90073 90,275,279-283,285,327-331,503-509,700,703,712,716,727
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/AggScalarSubQueryToWindowFunction.java
+  s_f53801d87886ba::t_f69b9e1855402a 21,30,35,43,47,67,87,89-90,98-99,106-113,149-158,168-169,175-184,219-235,239-247,253-258,262-265,276-282,285-293,302-313,319-320,324-325,372-390,398-429,448-578,611,642-795,797-801,805-860,866-888,890-891,893-895,897-920,923-926,928-934,936-937,939-955,959-960
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/NormalizeOlapTableStreamScan.java
+  s_f53801d87886ba::t_a725ba722258f3 72-73,96-101,161-162,189,193-194,209,212-213,215-217,347,351-352,363,365-367,376,380-381,383,388-390,393,397,400-402
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/eageraggregation/EagerAggRewriter.java
+  s_f53801d87886ba::t_54b8cbdf662a12 678
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/eageraggregation/PushDownAggregation.java
+  s_f53801d87886ba::t_e1087ed5c0b92e 50,61,137-155,242-276,278-281,297-323
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/copier/DeepCopierContext.java
+  s_f53801d87886ba::t_6d5f340d59689f 42-51
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/copier/LogicalPlanDeepCopier.java
+  s_f53801d87886ba::t_ef502263554c11 49,111-113
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/CalendarCeilMonotonic.java
+  s_f53801d87886ba::t_9ec0089ec3bb21 1-43
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/DateCeilFloorMonotonic.java
+  s_f53801d87886ba::t_6a17a0d44a7da5 20-21,24-25,49-64
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/RoundingMonotonic.java
+  s_f53801d87886ba::t_8df9d5d3849ba5 18,20-25,28,30-32
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/executable/DateTimeExtractAndTransform.java
+  s_f53801d87886ba::t_9cbfc1be171ffb 1095-1096,1101-1102,1122-1138
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/Date.java
+  s_f53801d87886ba::t_8706122746a18e 25-26,41-42,85-89
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/DateTrunc.java
+  s_f53801d87886ba::t_7b0339711fd3a5 26-27,46,172-184
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/DayCeil.java
+  s_f53801d87886ba::t_de0084e80c5236 26,106-110
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/DayFloor.java
+  s_f53801d87886ba::t_1a7f46db64186c 26,106-110
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/HourCeil.java
+  s_f53801d87886ba::t_7058c2f19a378a 26,103-107
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/HourFloor.java
+  s_f53801d87886ba::t_e59de74012d9bd 26,103-107
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/MinuteCeil.java
+  s_f53801d87886ba::t_3687dfa91937e2 26,102-106
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/MinuteFloor.java
+  s_f53801d87886ba::t_e17e3854b53192 26,102-106
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/MonthCeil.java
+  s_f53801d87886ba::t_8658ad4ea942ba 22,26,42,106-110
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/MonthFloor.java
+  s_f53801d87886ba::t_ff0b59fd8fca63 26,106-110
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/QuarterCeil.java
+  s_f53801d87886ba::t_3480f1524538a2 22,26,42,107-111
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/QuarterFloor.java
+  s_f53801d87886ba::t_ec4aafbc6d1c49 26,107-111
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/SecondCeil.java
+  s_f53801d87886ba::t_bbefc005bc560b 26,102-106
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/SecondFloor.java
+  s_f53801d87886ba::t_d185db489d4952 26,102-106
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/ToDate.java
+  s_f53801d87886ba::t_86c6dc5624534f 25-26,41-42,83-87
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/ToMonday.java
+  s_f53801d87886ba::t_81db2c5d97d15b 24-25,40,83-87
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/WeekCeil.java
+  s_f53801d87886ba::t_14790c67581a5c 22,26,42,106-110,115-128
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/WeekFloor.java
+  s_f53801d87886ba::t_122ed616f08a27 22,26,42,106-110,115-128
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/YearCeil.java
+  s_f53801d87886ba::t_29af6da43dda02 22,26,42,106-110
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/scalar/YearFloor.java
+  s_f53801d87886ba::t_105e559321c29f 26,106-110
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/literal/Interval.java
+  s_f53801d87886ba::t_c6fad510b3e6d8 73-77
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/PlanType.java
+  s_f53801d87886ba::t_9fc5af03bbbec4 203
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/AdminCompactTabletCommand.java
+  s_f53801d87886ba::t_31d7b7078f52e7 1-121
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/CreateFunctionCommand.java
+  s_f53801d87886ba::t_211c8055656dd3 49,488-502
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/ShowCommand.java
+  s_f53801d87886ba::t_49d953b7041b68 20,111-112,114-116
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/info/ColumnDefinition.java
+  s_f53801d87886ba::t_6c8ba869832b76 727-738
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/info/CreateTableInfo.java
+  s_f53801d87886ba::t_0878911c9d8f07 1631,1633-1641
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/info/InPartition.java
+  s_f53801d87886ba::t_ff041a8cc16b1e 25,53-82
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/insert/InsertIntoTVFCommand.java
+  s_f53801d87886ba::t_d36ef5d0032fcd 129-131
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/insert/InsertIntoTableCommand.java
+  s_f53801d87886ba::t_a0ee4afcd35b58 360-364,371-375
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/logical/LogicalLoadProject.java
+  s_f53801d87886ba::t_1701b865634f57 261-267
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/logical/LogicalOlapScan.java
+  s_f53801d87886ba::t_9e7ebf68fc3d47 50,663,766-780,986-993,1033-1039,1140-1184,1325-1334
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/logical/LogicalOlapTableStreamScan.java
+  s_f53801d87886ba::t_e8fe568f8fae55 22,133-139,152-153,157-158,161,182-186,313-325,585-592
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/logical/LogicalOneRowRelation.java
+  s_f53801d87886ba::t_26b5fc64e36a90 177-188
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/logical/LogicalProject.java
+  s_f53801d87886ba::t_10d34c23c40d79 335-341
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/physical/PhysicalProject.java
+  s_f53801d87886ba::t_5b7429f277d5f8 319-325
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/physical/RuntimeFilter.java
+  s_f53801d87886ba::t_6ee793ff4d564a 26,30,33,59-63,206-223
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/visitor/CommandVisitor.java
+  s_f53801d87886ba::t_c9408ed7fee35c 26,438-441
+fe/fe-core/src/main/java/org/apache/doris/nereids/util/ExpressionUtils.java
+  s_f53801d87886ba::t_4c9ee377a44399 29,1413-1436
+fe/fe-core/src/main/java/org/apache/doris/planner/OlapScanNode.java
+  s_f53801d87886ba::t_0b0b183b93e102 68,132-134,217-219,806-808,1074,1076,1106,1487,1490-1492,1542-1593
+fe/fe-core/src/main/java/org/apache/doris/planner/RuntimeFilter.java
+  s_f53801d87886ba::t_16bb6eae7e7319 143-144,148,361,364-377,379-380,383-391,419,425-432
+fe/fe-core/src/main/java/org/apache/doris/qe/AuditLogHelper.java
+  s_f53801d87886ba::t_a90a017179072f 54,412-418,424-427
+fe/fe-core/src/main/java/org/apache/doris/qe/ConnectContext.java
+  s_f53801d87886ba::t_d8dc973fb09b2c 21,685-686
+fe/fe-core/src/main/java/org/apache/doris/qe/ConnectProcessor.java
+  s_f53801d87886ba::t_62dc7e4152470d 834-838
+fe/fe-core/src/main/java/org/apache/doris/qe/Coordinator.java
+  s_f53801d87886ba::t_1cdc983349294a 141,240,927,1056-1057,3850-3853
+fe/fe-core/src/main/java/org/apache/doris/qe/FEOpExecutor.java
+  s_f53801d87886ba::t_2a7df0bfe45b3a 40,51,269-275
+fe/fe-core/src/main/java/org/apache/doris/qe/NereidsCoordinator.java
+  s_f53801d87886ba::t_affb7a18927c15 71,80,378-383
+fe/fe-core/src/main/java/org/apache/doris/qe/QeProcessorImpl.java
+  s_f53801d87886ba::t_ef44dfeb48dc0a 173-175
+fe/fe-core/src/main/java/org/apache/doris/qe/SessionVariable.java
+  s_f53801d87886ba::t_b8ed61329a5c92 474-476,2189-2191,3726,5312-5319,5698
+fe/fe-core/src/main/java/org/apache/doris/qe/StmtExecutor.java
+  s_f53801d87886ba::t_d938e016056dad 204,510-521,700
+fe/fe-core/src/main/java/org/apache/doris/qe/cache/CacheAnalyzer.java
+  s_f53801d87886ba::t_067e29667cdd27 55,453-454,471-475,480-486
+fe/fe-core/src/main/java/org/apache/doris/qe/runtime/PipelineExecutionTask.java
+  s_f53801d87886ba::t_4eaf9254faa8a0 39,50-51,70,100,123-124,139-142
+fe/fe-core/src/main/java/org/apache/doris/resource/workloadschedpolicy/WorkloadRuntimeStatusMgr.java
+  s_f53801d87886ba::t_b84d910f735b0e 32,39-40,63,85-88,120,132-135,157-159,168-200,206,209,218-232
+fe/fe-core/src/main/java/org/apache/doris/system/Backend.java
+  s_f53801d87886ba::t_f61d87c3ed7591 129
+fe/fe-core/src/main/java/org/apache/doris/tablefunction/MetadataGenerator.java
+  s_f53801d87886ba::t_cab806b500decd 1260-1269,1271-1276
+fe/fe-core/src/main/java/org/apache/doris/task/CreateReplicaTask.java
+  s_f53801d87886ba::t_65a21f50d6f5c8 319,361-363,370
+fe/fe-core/src/main/java/org/apache/doris/transaction/DatabaseTransactionMgr.java
+  s_f53801d87886ba::t_a59929ae633802 32,64,66,126-128,503-504,621-622,640-645,689-743,745-748,751-753
+fe/fe-core/src/test/java/org/apache/doris/analysis/LimitElementTest.java
+  s_f53801d87886ba::t_669acda219f9a9 1-85
+fe/fe-core/src/test/java/org/apache/doris/catalog/BackendTest.java
+  s_f53801d87886ba::t_7e1e992c47e5cd 36,102-106
+fe/fe-core/src/test/java/org/apache/doris/catalog/ListPartitionInfoTest.java
+  s_f53801d87886ba::t_3a866fd5894343 27,29,256-323,328,331-341
+fe/fe-core/src/test/java/org/apache/doris/cloud/catalog/CloudReplicaTest.java
+  s_f53801d87886ba::t_e72a6619c002bc 27-28,31-32,440-641
+fe/fe-core/src/test/java/org/apache/doris/cloud/catalog/CloudTabletRebalancerTest.java
+  s_f53801d87886ba::t_effbbeb2bb0219 52,1228-1262
+fe/fe-core/src/test/java/org/apache/doris/cloud/datasource/CloudInternalCatalogTableStreamTest.java
+  s_f53801d87886ba::t_958d1161ca2eb6 30,41,237-323,449-551,576-585
+fe/fe-core/src/test/java/org/apache/doris/cloud/rpc/MetaServiceProxyTest.java
+  s_f53801d87886ba::t_89ec20de6eaffd 48,60,70,84,531
+fe/fe-core/src/test/java/org/apache/doris/cloud/rpc/MetaServiceRpcRateLimiterTest.java
+  s_f53801d87886ba::t_fdb1ceb3a02b99 23-28,37,44,49-52,59,64-75,84,89-92,114-141,294
+fe/fe-core/src/test/java/org/apache/doris/cloud/transaction/CloudGlobalTransactionMgrTest.java
+  s_f53801d87886ba::t_51bed72ae0b728 248-262,269,275,279-282
+fe/fe-core/src/test/java/org/apache/doris/common/plugin/CloudPluginDownloaderTest.java
+  s_f53801d87886ba::t_9a01adefe9a732 18-23,25,27-28,30,32-45,48-49,51-70,73-74,76-107,110-111,113-131,134-135,137-146,150-160,163-164,166-171
+fe/fe-core/src/test/java/org/apache/doris/connector/ConnectorSessionImplTest.java
+  s_f53801d87886ba::t_d5d0e32dc743af 281-283,296
+fe/fe-core/src/test/java/org/apache/doris/job/extensions/insert/streaming/StreamingInsertJobLagTest.java
+  s_f53801d87886ba::t_d03dee95ee0411 1-76
+fe/fe-core/src/test/java/org/apache/doris/job/offset/jdbc/JdbcSourceOffsetProviderLagTest.java
+  s_f53801d87886ba::t_2c75988e40a4ff 1-243
+fe/fe-core/src/test/java/org/apache/doris/load/loadv2/BrokerLoadJobTest.java
+  s_f53801d87886ba::t_161cf0fc06179e 27,503,506,516-555,572
+fe/fe-core/src/test/java/org/apache/doris/metric/MetricsTest.java
+  s_f53801d87886ba::t_ca709789e1a599 26,28-34,51,53-54,134-176
+fe/fe-core/src/test/java/org/apache/doris/nereids/glue/translator/PhysicalPlanTranslatorTest.java
+  s_f53801d87886ba::t_72fe4f65e61f01 406,425
+fe/fe-core/src/test/java/org/apache/doris/nereids/glue/translator/RuntimeFilterTranslatorBucketPruneTest.java
+  s_f53801d87886ba::t_7dbdf77e283f85 1-239
+fe/fe-core/src/test/java/org/apache/doris/nereids/parser/AdminCompactTabletParserTest.java
+  s_f53801d87886ba::t_8de5f44dddf38e 1-45
+fe/fe-core/src/test/java/org/apache/doris/nereids/processor/post/RuntimeFilterPruneClassifierTest.java
+  s_f53801d87886ba::t_653b789e0bbd4e 18,26-27,30,35,37-38,47-50,52-54,66,68-72,74,78-85,87-99,103-118,120-238,240,244-250,252-268,272-277,283-333,335-336,340,343-360,363-399,401,403-412,414-415,417-419,421-444,449-472,474-478,482
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/analysis/BindExpressionTest.java
+  s_f53801d87886ba::t_33de1112aa7ba4 23-27,109-139
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/analysis/UserVariableAnalysisTest.java
+  s_f53801d87886ba::t_6a8c4ae020c6e4 20,23-25,30,61-72
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/exploration/mv/MvExplorationSuiteTest.java
+  s_f53801d87886ba::t_fa1bbb8e6d9855 929-975
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/expression/rules/InferPredicateFromMonotonicFunctionTest.java
+  s_f53801d87886ba::t_7e3d027b8e492d 1-446
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/AggScalarSubQueryToWindowFunctionTest.java
+  s_f53801d87886ba::t_05f7d1a11a5400 22-27,29-34,36,40,42,46-49,79-90,372-3466
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/ConstantCteTest.java
+  s_f53801d87886ba::t_b69ff6cfdec31b 1-121
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/ConstantProjectionFoldingTest.java
+  s_f53801d87886ba::t_41b9abd3182369 20-22,26,28-29,32-33,35-44,46-55,57-75,79-84,86-99
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/PruneNestedColumnTest.java
+  s_f53801d87886ba::t_74832659b6587e 125-126,186-210,486-492,915-920
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/PruneOlapScanPartitionTest.java
+  s_f53801d87886ba::t_6344d347d5793f 25,27,336-363
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/eageraggregation/EagerAggRewriterTest.java
+  s_f53801d87886ba::t_34a61d8c1181f4 22,142,145,147,149-192,892-919
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/copier/LogicalPlanDeepCopierTest.java
+  s_f53801d87886ba::t_f251093deb1eee 53-82
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/expressions/functions/executable/DateTimeExtractAndTransformTest.java
+  s_f53801d87886ba::t_c31816724322d3 212-255
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/expressions/literal/IntervalTest.java
+  s_f53801d87886ba::t_5c0bf839bb8017 32-37
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/CreateTableCommandTest.java
+  s_f53801d87886ba::t_dcf629983fa1d6 1032-1062
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/commands/info/CreateTableInfoTest.java
+  s_f53801d87886ba::t_f7acd905838ea6 297-319
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/commands/insert/InsertIntoTableCommandTableStreamTest.java
+  s_f53801d87886ba::t_99e31da40bb8e0 37,51,68,111-112,193-228,421-425,428-436,439-477,479-481,483-486,590-647,857-882
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/commands/insert/InsertIntoTableCommandTest.java
+  s_f53801d87886ba::t_e0e5cc2cad6c43 217-228
+fe/fe-core/src/test/java/org/apache/doris/planner/OlapScanNodeBackendSelectionConfigTest.java
+  s_f53801d87886ba::t_db4932d3b47764 369-370
+fe/fe-core/src/test/java/org/apache/doris/planner/OlapScanNodeTest.java
+  s_f53801d87886ba::t_9b90ee6b7613a2 39-40,43,45-46,285-358
+fe/fe-core/src/test/java/org/apache/doris/qe/AuditLogHelperBackendSelectionTest.java
+  s_f53801d87886ba::t_e419f16b03713f 20,24-26,29-34,48-49,74-169
+fe/fe-core/src/test/java/org/apache/doris/qe/MasterOpExecutorBackendSelectionTest.java
+  s_f53801d87886ba::t_2e2318b875c2ce 36-38,132-150,237-240
+fe/fe-core/src/test/java/org/apache/doris/qe/QeProcessorImplTest.java
+  s_f53801d87886ba::t_3ce93958e54d64 1-134
+fe/fe-core/src/test/java/org/apache/doris/qe/cache/CacheManagerTest.java
+  s_f53801d87886ba::t_8ebe505ae85e0e 1-249
+fe/fe-core/src/test/java/org/apache/doris/qe/runtime/PipelineExecutionTaskTest.java
+  s_f53801d87886ba::t_449f797013413a 27,37-39,59-61,80-116
+fe/fe-core/src/test/java/org/apache/doris/resource/workloadschedpolicy/WorkloadRuntimeStatusMgrTest.java
+  s_f53801d87886ba::t_b5ed52219dd505 20-24,33-34,36,38,268-390,401-405,408
+fe/fe-core/src/test/java/org/apache/doris/tablefunction/MetadataGeneratorPluginDrivenTest.java
+  s_f53801d87886ba::t_a52de6f4d85b55 20,66-67,96,102-103,124
+fe/fe-core/src/test/java/org/apache/doris/transaction/DatabaseTransactionMgrTest.java
+  s_f53801d87886ba::t_f26e56b4201f9f 25,27-28,30,38-40,47,50,246-469
+fe/fe-sql-parser/src/main/antlr4/org/apache/doris/nereids/DorisParser.g4
+  s_f53801d87886ba::t_fdc3ede7004d8a 662
+fs_brokers/cdc_client/pom.xml
+  s_f53801d87886ba::t_bbb36b11783085 279,359
+fs_brokers/cdc_client/src/main/java/com/github/shyiko/mysql/binlog/BinaryLogClient.java
+  s_f53801d87886ba::t_57b30e3d9d2b8f 1-1477
+fs_brokers/cdc_client/src/main/java/io/debezium/connector/mysql/MySqlStreamingChangeEventSource.java
+  s_f53801d87886ba::t_129932f59bb236 92-94,244-250
+fs_brokers/cdc_client/src/main/java/org/apache/doris/cdcclient/common/Constants.java
+  s_f53801d87886ba::t_f7c1686d40a5d7 25
+fs_brokers/cdc_client/src/main/java/org/apache/doris/cdcclient/controller/ClientController.java
+  s_f53801d87886ba::t_4710fa0c0d3127 25,30,108,113-117
+fs_brokers/cdc_client/src/main/java/org/apache/doris/cdcclient/source/reader/SourceReader.java
+  s_f53801d87886ba::t_f524cfef0099e1 23,27,82-83
+fs_brokers/cdc_client/src/main/java/org/apache/doris/cdcclient/source/reader/mysql/MySqlBinlogLagCalculator.java
+  s_f53801d87886ba::t_54af8891c1c526 1-77
+fs_brokers/cdc_client/src/main/java/org/apache/doris/cdcclient/source/reader/mysql/MySqlSourceReader.java
+  s_f53801d87886ba::t_71e5dec68f280a 31,35,1003-1004,1179-1180,1182-1234
+fs_brokers/cdc_client/src/main/java/org/apache/doris/cdcclient/source/reader/postgres/PostgresSourceReader.java
+  s_f53801d87886ba::t_6a21009f5d16bd 29,32,60,473-538
+fs_brokers/cdc_client/src/test/java/com/github/shyiko/mysql/binlog/BinaryLogClientTransactionReplayTest.java
+  s_f53801d87886ba::t_ff3d07469f36de 1-135
+fs_brokers/cdc_client/src/test/java/org/apache/doris/cdcclient/itcase/CdcClientWriteHarness.java
+  s_f53801d87886ba::t_a1d02e1c1b8667 25,29,478-486
+fs_brokers/cdc_client/src/test/java/org/apache/doris/cdcclient/itcase/MySqlBinaryLogClientKeepAliveITCase.java
+  s_f53801d87886ba::t_6867de9e9a6a32 18,20-35,39-47,49-50,52-73,76-147,149-158,160-164,166,168-175,177,180-206
+fs_brokers/cdc_client/src/test/java/org/apache/doris/cdcclient/itcase/MySqlVersionSmokeITCase.java
+  s_f53801d87886ba::t_596482c58a5255 128
+fs_brokers/cdc_client/src/test/java/org/apache/doris/cdcclient/itcase/PostgresVersionSmokeITCase.java
+  s_f53801d87886ba::t_f06a90145a6723 114
+fs_brokers/cdc_client/src/test/java/org/apache/doris/cdcclient/source/reader/mysql/MySqlBinlogLagCalculatorTest.java
+  s_f53801d87886ba::t_c81039fce1c1e0 1-165
+gensrc/proto/internal_service.proto
+  s_f53801d87886ba::t_7f638910b9582c 192-193,951
+gensrc/proto/olap_file.proto
+  s_f53801d87886ba::t_c7a19dc7f9df72 118,129,146,159,190-194,242,253,272,283,317-320,330-331,565-567,569,572,575,627-629,631,634,637,837-838
+gensrc/proto/snii.proto
+  s_f53801d87886ba::t_d1592e1e453592 84-89,94-95,103-106,110-112
+gensrc/thrift/AgentService.thrift
+  s_f53801d87886ba::t_1676919902d47b 56-59
+gensrc/thrift/FrontendService.thrift
+  s_f53801d87886ba::t_a8ec8718e06619 475-476
+gensrc/thrift/PaloInternalService.thrift
+  s_f53801d87886ba::t_4535f47160df16 521
+gensrc/thrift/PlanNodes.thrift
+  s_f53801d87886ba::t_d885193f3f3794 105-109,505-510,594,1668-1672
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_continuous_consume.out
+  s_f53801d87886ba::t_074213b953cfdf 1-68
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_ddl_metadata.out
+  s_f53801d87886ba::t_899b885a751639 1-16
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_e2e.out
+  s_f53801d87886ba::t_18b69cec33b3cb 1-45
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_initial_rows.out
+  s_f53801d87886ba::t_3c8d7484dbb011 1-59
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_multi_reference.out
+  s_f53801d87886ba::t_a695b717074093 1-33
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_object_lifecycle.out
+  s_f53801d87886ba::t_a0bdc09fb1b7f4 1-37
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_partition_consume.out
+  s_f53801d87886ba::t_555c00accb0700 1-37
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_partition_lifecycle.out
+  s_f53801d87886ba::t_3d555cb38f6ccf 1-64
+regression-test/data/cloud_p0/table_stream/test_cloud_table_stream_schema_change.out
+  s_f53801d87886ba::t_1840230ce67c26 1-32
+regression-test/data/datatype_p0/timestamptz/test_timestamptz_dst_fold.out
+  s_f53801d87886ba::t_883519dfe10438 2-8
+regression-test/data/function_p0/cast/test_cast_string_to_number_with_nulls.out
+  s_f53801d87886ba::t_efafe2f7a124ea 1-29
+regression-test/data/insert_overwrite_p0/test_iot_overwrite_partition_star_hang.out
+  s_f53801d87886ba::t_7da7df12866cc8 1-6
+regression-test/data/nereids_rules_p0/column_pruning/lambda_null_pruning.out
+  s_f53801d87886ba::t_f083de5a7d6bb6 32-41
+regression-test/data/nereids_rules_p0/column_pruning/nested_lambda_outer_argument_pruning.out
+  s_f53801d87886ba::t_d1d51783a5a90e 1-12
+regression-test/data/nereids_rules_p0/infer_predicate/pull_up_predicate_literal.out
+  s_f53801d87886ba::t_260f63e57415d3 5,13
+regression-test/data/nereids_rules_p0/partition_prune/test_add_sub_diff_ceil_floor.out
+  s_f53801d87886ba::t_2eaab09adf206e 1-4
+regression-test/data/nereids_rules_p0/subquery_to_window_function/correlated_scalar_subquery_to_window_function.out
+  s_f53801d87886ba::t_647adc8ec136a9 1-98
+regression-test/data/partition_p0/test_list_partition_maxvalue.out
+  s_f53801d87886ba::t_fb5b04e000a37c 1-10
+regression-test/data/query_p0/eager_agg/distinct_agg_func_push_down.out
+  s_f53801d87886ba::t_7f01f9c5e16b65 1-237
+regression-test/data/query_p0/runtime_filter/rf_bucket_pruning.out
+  s_f53801d87886ba::t_85aa814014fa07 1-6
+regression-test/data/shape_check/tpcds_sf100/noStatsRfPrune/query32.out
+  s_f53801d87886ba::t_72cbceedc2dbc4 10-25,27,29
+regression-test/data/shape_check/tpcds_sf100/noStatsRfPrune/query92.out
+  s_f53801d87886ba::t_4fc5c6ed54cb9c 9-24,26,28
+regression-test/data/shape_check/tpcds_sf100/no_stats_shape/query32.out
+  s_f53801d87886ba::t_ffa4873d6e14f3 10-25,27,29
+regression-test/data/shape_check/tpcds_sf100/no_stats_shape/query92.out
+  s_f53801d87886ba::t_2d9ff18d902e9b 9-24,26,28
+regression-test/data/shape_check/tpcds_sf100/rf_prune/query32.out
+  s_f53801d87886ba::t_d7541228060562 10-19,21-32
+regression-test/data/shape_check/tpcds_sf100/rf_prune/query92.out
+  s_f53801d87886ba::t_c3efd518b7d7c0 9-18,20-31
+regression-test/data/shape_check/tpcds_sf100/shape/query32.out
+  s_f53801d87886ba::t_1e7c2780dad041 10-19,21-32
+regression-test/data/shape_check/tpcds_sf100/shape/query92.out
+  s_f53801d87886ba::t_418e79e0021461 9-18,20-31
+regression-test/data/shape_check/tpcds_sf1000/dphyper/query32.out
+  s_f53801d87886ba::t_a5ed7caa0fca0e 10-19,21-32
+regression-test/data/shape_check/tpcds_sf1000/dphyper/query72.out
+  s_f53801d87886ba::t_9f044e3b9e4f33 15,17,19-20,22,24-37,39,41-42,44-45,47,49
+regression-test/data/shape_check/tpcds_sf1000/dphyper/query92.out
+  s_f53801d87886ba::t_aafcf2bd2ac0f4 9-18,20-31
+regression-test/data/shape_check/tpcds_sf1000/hint/query32.out
+  s_f53801d87886ba::t_5e8f122d01a463 10-25,27,29
+regression-test/data/shape_check/tpcds_sf1000/hint/query92.out
+  s_f53801d87886ba::t_c8bb808c3d7873 9-24,26,28
+regression-test/data/shape_check/tpcds_sf1000/shape/query32.out
+  s_f53801d87886ba::t_6a439feab6e9b1 10-19,21-32
+regression-test/data/shape_check/tpcds_sf1000/shape/query92.out
+  s_f53801d87886ba::t_e9747dd716c1ca 9-18,20-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query1.out
+  s_f53801d87886ba::t_608ed2c4f7eb19 1-37
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query10.out
+  s_f53801d87886ba::t_7169cf329dc8f6 1-47
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query11.out
+  s_f53801d87886ba::t_fae472fe5b33f7 1-74
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query12.out
+  s_f53801d87886ba::t_bf2dc5e694164d 1-29
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query13.out
+  s_f53801d87886ba::t_e0bc34a2495502 1-34
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query14.out
+  s_f53801d87886ba::t_1430178d949bc7 1-170
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query15.out
+  s_f53801d87886ba::t_15190c1d0162f2 1-25
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query16.out
+  s_f53801d87886ba::t_55a99ce9b492de 1-33
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query17.out
+  s_f53801d87886ba::t_9d05859f5689fb 1-44
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query18.out
+  s_f53801d87886ba::t_6f59a341600f6b 1-42
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query19.out
+  s_f53801d87886ba::t_12504d4a86bff9 1-35
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query2.out
+  s_f53801d87886ba::t_d77949e2ec0555 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query20.out
+  s_f53801d87886ba::t_2504dfda0fc4ec 1-29
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query21.out
+  s_f53801d87886ba::t_2119ffffa21109 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query22.out
+  s_f53801d87886ba::t_156a603fa01f61 1-23
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query23.out
+  s_f53801d87886ba::t_533c7fafdadd1e 1-82
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query24.out
+  s_f53801d87886ba::t_a6298e971e905c 1-52
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query25.out
+  s_f53801d87886ba::t_59c9f04a3f0a4b 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query26.out
+  s_f53801d87886ba::t_124b4985ce004d 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query27.out
+  s_f53801d87886ba::t_86c572da447e1c 1-33
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query28.out
+  s_f53801d87886ba::t_54bbe184274c7e 1-75
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query29.out
+  s_f53801d87886ba::t_40d38e82417286 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query3.out
+  s_f53801d87886ba::t_7eda1c2f4757a8 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query30.out
+  s_f53801d87886ba::t_90bbf8ad81acca 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query31.out
+  s_f53801d87886ba::t_861b8a7ec829ee 1-73
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query32.out
+  s_f53801d87886ba::t_19e91e32518f4f 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query33.out
+  s_f53801d87886ba::t_6d9d2d287ffc46 1-83
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query34.out
+  s_f53801d87886ba::t_e120b50a48b13b 1-32
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query35.out
+  s_f53801d87886ba::t_63882c6e377cd6 1-47
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query36.out
+  s_f53801d87886ba::t_f89e049250e7dc 1-33
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query37.out
+  s_f53801d87886ba::t_99b4fd5cb58c8e 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query38.out
+  s_f53801d87886ba::t_fd41b7a78a3b68 1-62
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query39.out
+  s_f53801d87886ba::t_f45ee75b267e98 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query4.out
+  s_f53801d87886ba::t_307a5a2c8c10e3 1-109
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query40.out
+  s_f53801d87886ba::t_7ac5cacd070574 1-30
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query41.out
+  s_f53801d87886ba::t_84986ab2a4ec57 1-23
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query42.out
+  s_f53801d87886ba::t_557f67e729eee2 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query43.out
+  s_f53801d87886ba::t_0714ea56348a9d 1-25
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query44.out
+  s_f53801d87886ba::t_aced55c7b0baf7 1-71
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query45.out
+  s_f53801d87886ba::t_069f24fd2576ae 1-35
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query46.out
+  s_f53801d87886ba::t_44d18abc9cf90e 1-38
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query47.out
+  s_f53801d87886ba::t_b0f9a0e6c7995c 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query48.out
+  s_f53801d87886ba::t_1aa046ff8b300a 1-29
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query49.out
+  s_f53801d87886ba::t_e50a3e6c7ea70f 1-107
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query5.out
+  s_f53801d87886ba::t_55dbe210c506ab 1-85
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query50.out
+  s_f53801d87886ba::t_e95bec2e34bb6b 1-29
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query51.out
+  s_f53801d87886ba::t_5883ef08c4f6fb 1-40
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query52.out
+  s_f53801d87886ba::t_8dea900a472d31 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query53.out
+  s_f53801d87886ba::t_25f716011ef693 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query54.out
+  s_f53801d87886ba::t_63fab25a4539ff 1-74
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query55.out
+  s_f53801d87886ba::t_eacb09b468347f 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query56.out
+  s_f53801d87886ba::t_e0ab55067f9333 1-83
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query57.out
+  s_f53801d87886ba::t_f8c0a1e9da5247 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query58.out
+  s_f53801d87886ba::t_8aaf16532b9973 1-87
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query59.out
+  s_f53801d87886ba::t_9e97afed1d43f0 1-46
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query6.out
+  s_f53801d87886ba::t_f303284441545d 1-47
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query60.out
+  s_f53801d87886ba::t_604cdc35336692 1-83
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query61.out
+  s_f53801d87886ba::t_f779b0b9f8d822 1-70
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query62.out
+  s_f53801d87886ba::t_d812f56770ed4d 1-29
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query63.out
+  s_f53801d87886ba::t_122fd054993c4c 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query64.out
+  s_f53801d87886ba::t_bce72632ad65ff 1-100
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query65.out
+  s_f53801d87886ba::t_519931d53ecc11 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query66.out
+  s_f53801d87886ba::t_6cf04003fd4f66 1-61
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query67.out
+  s_f53801d87886ba::t_e6f25f3cf67489 1-42
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query68.out
+  s_f53801d87886ba::t_259af86e8dabee 1-40
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query69.out
+  s_f53801d87886ba::t_cb0bfdd7ace788 1-47
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query7.out
+  s_f53801d87886ba::t_2e9dabc5e2bfdd 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query70.out
+  s_f53801d87886ba::t_b3a8ba67308513 1-47
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query71.out
+  s_f53801d87886ba::t_aecd9320e19bd1 1-36
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query72.out
+  s_f53801d87886ba::t_68e6bd6fc01393 1-58
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query73.out
+  s_f53801d87886ba::t_611d84475b5317 1-32
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query74.out
+  s_f53801d87886ba::t_74f37cd9b9132e 1-74
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query75.out
+  s_f53801d87886ba::t_70a5426b91f8b0 1-68
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query76.out
+  s_f53801d87886ba::t_8d84ce95f6a7b1 1-38
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query77.out
+  s_f53801d87886ba::t_18edb99ea7236e 1-101
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query78.out
+  s_f53801d87886ba::t_dcd4fb51d60bfd 1-57
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query79.out
+  s_f53801d87886ba::t_23f7621f24aa80 1-32
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query8.out
+  s_f53801d87886ba::t_6559d73d88913b 1-48
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query80.out
+  s_f53801d87886ba::t_ce52ebf4420ed6 1-100
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query81.out
+  s_f53801d87886ba::t_c10477de297867 1-43
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query82.out
+  s_f53801d87886ba::t_bdc17daa1e0c6c 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query83.out
+  s_f53801d87886ba::t_c8670587ca9645 1-90
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query84.out
+  s_f53801d87886ba::t_87f0660e1cd548 1-33
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query85.out
+  s_f53801d87886ba::t_8228e9d1e50a01 1-46
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query86.out
+  s_f53801d87886ba::t_af63277b080e88 1-28
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query87.out
+  s_f53801d87886ba::t_3383211ca0f9a0 1-60
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query88.out
+  s_f53801d87886ba::t_7853625eeaffcd 1-171
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query89.out
+  s_f53801d87886ba::t_6e702811350bd8 1-31
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query9.out
+  s_f53801d87886ba::t_f9f9daa7506966 1-113
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query90.out
+  s_f53801d87886ba::t_4a0efbbcd43291 1-47
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query91.out
+  s_f53801d87886ba::t_95c47abd921164 1-41
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query92.out
+  s_f53801d87886ba::t_92937830b83386 1-25
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query93.out
+  s_f53801d87886ba::t_17ac3f66abe38e 1-21
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query94.out
+  s_f53801d87886ba::t_545445ae07042b 1-33
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query95.out
+  s_f53801d87886ba::t_a69d14ae8c8cda 1-42
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query96.out
+  s_f53801d87886ba::t_d755abcdc2d4a7 1-26
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query97.out
+  s_f53801d87886ba::t_8b445683fffcc2 1-35
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query98.out
+  s_f53801d87886ba::t_15668f3dcb2e9e 1-29
+regression-test/data/shape_check/tpcds_sf1000_constraints/shape/query99.out
+  s_f53801d87886ba::t_03a45bf3d71d80 1-29
+regression-test/data/shape_check/tpcds_sf1000_nopkfk/shape/query32.out
+  s_f53801d87886ba::t_aec25244994972 10-19,21-32
+regression-test/data/shape_check/tpcds_sf1000_nopkfk/shape/query92.out
+  s_f53801d87886ba::t_96abd10a0e0d90 9-18,20-31
+regression-test/data/shape_check/tpcds_sf10t_orc/shape/query32.out
+  s_f53801d87886ba::t_d3245365ba9a03 10-25,27,29
+regression-test/data/shape_check/tpcds_sf10t_orc/shape/query92.out
+  s_f53801d87886ba::t_c71ed038da32d5 9-24,26,28
+regression-test/data/shape_check/tpch_sf1000/dphyper/q17.out
+  s_f53801d87886ba::t_d396129fcb0fd6 9-16,19-21
+regression-test/data/shape_check/tpch_sf1000/dphyper/q2.out
+  s_f53801d87886ba::t_b71e2d07065f49 10-27,29,31-33,35,37-45
+regression-test/data/shape_check/tpch_sf1000/hint/q17.out
+  s_f53801d87886ba::t_c186d875ecc087 9-19,21
+regression-test/data/shape_check/tpch_sf1000/nostats_rf_prune/q17.out
+  s_f53801d87886ba::t_641d1a0abfcf55 9-11,13-21
+regression-test/data/shape_check/tpch_sf1000/nostats_rf_prune/q2.out
+  s_f53801d87886ba::t_233392bb26a51c 10-12,14,16,18,20-24,26-45
+regression-test/data/shape_check/tpch_sf1000/rf_prune/q17.out
+  s_f53801d87886ba::t_9b63f46d2657fe 9-16,19-21
+regression-test/data/shape_check/tpch_sf1000/rf_prune/q2.out
+  s_f53801d87886ba::t_ca82ed10c8439e 10-13,15-17,19,21,23,25-45
+regression-test/data/shape_check/tpch_sf1000/shape/q17.out
+  s_f53801d87886ba::t_1fc7ae6f043bde 9-16,19-21
+regression-test/data/shape_check/tpch_sf1000/shape/q2.out
+  s_f53801d87886ba::t_fa9624dd2549bc 10-13,15-17,19,21,23,25-45
+regression-test/data/shape_check/tpch_sf1000/shape_no_stats/q17.out
+  s_f53801d87886ba::t_e14606c6eaa621 9-11,13-21
+regression-test/data/shape_check/tpch_sf1000/shape_no_stats/q2.out
+  s_f53801d87886ba::t_7bfcf42018cd8a 10-12,14,16,18,20-24,26-45
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q1.out
+  s_f53801d87886ba::t_5c983366285fb6 1-13
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q10.out
+  s_f53801d87886ba::t_48b398da594d05 1-29
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q11.out
+  s_f53801d87886ba::t_df0aa421177f03 1-37
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q12.out
+  s_f53801d87886ba::t_c1f4f1fbed1cb4 1-17
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q13.out
+  s_f53801d87886ba::t_7f0743e3b25b22 1-22
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q14.out
+  s_f53801d87886ba::t_449523f2de151a 1-15
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q15.out
+  s_f53801d87886ba::t_6fbcce63e96a81 1-30
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q16.out
+  s_f53801d87886ba::t_6aaacaac911892 1-22
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q17.out
+  s_f53801d87886ba::t_6222f17589e797 1-20
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q18.out
+  s_f53801d87886ba::t_71fbfe32ed8842 1-27
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q19.out
+  s_f53801d87886ba::t_3f5d10babd63fe 1-15
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q2.out
+  s_f53801d87886ba::t_d5354a12013506 1-33
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q20-rewrite.out
+  s_f53801d87886ba::t_0f0cb6aaa4087b 1-31
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q20.out
+  s_f53801d87886ba::t_e258916bd44b09 1-30
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q21.out
+  s_f53801d87886ba::t_2dca1276b2f816 1-35
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q22.out
+  s_f53801d87886ba::t_04f023d896b120 1-25
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q3.out
+  s_f53801d87886ba::t_9e12f52254de51 1-22
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q4.out
+  s_f53801d87886ba::t_089273c51d2166 1-18
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q5.out
+  s_f53801d87886ba::t_3c885e27aa2a20 1-34
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q6.out
+  s_f53801d87886ba::t_371af7892da499 1-10
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q7.out
+  s_f53801d87886ba::t_24bd72ba0250c9 1-35
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q8.out
+  s_f53801d87886ba::t_fb9ff6b0ecf97f 1-44
+regression-test/data/shape_check/tpch_sf1000_constraints/shape/q9.out
+  s_f53801d87886ba::t_309695bc2cfd67 1-33
+regression-test/data/table_stream_p0/test_table_stream_multi_segment_mow.out
+  s_f53801d87886ba::t_153963ade553b1 1-79
+regression-test/framework/src/main/groovy/org/apache/doris/regression/suite/Suite.groovy
+  s_f53801d87886ba::t_4e5cb208601d8d 141
+regression-test/framework/src/main/groovy/org/apache/doris/regression/util/RowsetInfoUtils.groovy
+  s_f53801d87886ba::t_e1c66875f1ac28 1-43
+regression-test/framework/src/test/groovy/org/apache/doris/regression/util/RowsetInfoUtilsTest.groovy
+  s_f53801d87886ba::t_b6046bbf39acc4 1-69
+regression-test/pipeline/cloud_p0/conf/be_custom.conf
+  s_f53801d87886ba::t_ee030cfcfbf090 2,66,71-72
+regression-test/pipeline/cloud_p0/conf/fe_custom.conf
+  s_f53801d87886ba::t_db7cd95fa66fbf 54
+regression-test/pipeline/cloud_p0/conf/regression-conf-custom.groovy
+  s_f53801d87886ba::t_c95f48c8c35bac 115-116
+regression-test/pipeline/cloud_p1/conf/be_custom.conf
+  s_f53801d87886ba::t_1660eb413aa0e5 52-53
+regression-test/pipeline/external/conf/be.conf
+  s_f53801d87886ba::t_acf234d1c3c77b 82-83
+regression-test/pipeline/external/conf/fe.conf
+  s_f53801d87886ba::t_12f73b344bbde0 31-32
+regression-test/pipeline/nonConcurrent/conf/be.conf
+  s_f53801d87886ba::t_a03c91684c777b 102-103
+regression-test/pipeline/p0/conf/be.conf
+  s_f53801d87886ba::t_4cf842225be197 105-106
+regression-test/pipeline/p1/conf/be.conf
+  s_f53801d87886ba::t_099a04bdb90070 88-89
+regression-test/pipeline/performance/clickbench/conf/be_custom.conf
+  s_f53801d87886ba::t_33849bb98d28e8 22-23
+regression-test/pipeline/performance/conf/be_custom.conf
+  s_f53801d87886ba::t_13b6a4b1aa4351 33-35
+regression-test/pipeline/vault_p0/conf/be_custom.conf
+  s_f53801d87886ba::t_1a4d3e2f5d9be5 49-50
+regression-test/plugins/cloud_show_data_plugin.groovy
+  s_f53801d87886ba::t_aeaac26dc3c401 19,217-219
+regression-test/plugins/plugin_curl_requester.groovy
+  s_f53801d87886ba::t_40f105e090b737 307-310
+regression-test/suites/backup_restore/test_backup_restore_colocate.groovy
+  s_f53801d87886ba::t_1b8e5781c17a3b 19-21,358-360
+regression-test/suites/cloud_p0/compaction/test_cloud_admin_compact_tablet.groovy
+  s_f53801d87886ba::t_41f1fabd77aab5 1-101
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_check_meta_orphan.groovy
+  s_f53801d87886ba::t_804d53f9c2ce3b 1-135
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_continuous_consume.groovy
+  s_f53801d87886ba::t_7b0ca2ed0ec3d0 1-94
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_ddl_metadata.groovy
+  s_f53801d87886ba::t_de63eeddfc9790 1-143
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_e2e.groovy
+  s_f53801d87886ba::t_cf8686ea111b76 1-128
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_initial_rows.groovy
+  s_f53801d87886ba::t_079ae4e7792e9e 1-211
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_multi_reference.groovy
+  s_f53801d87886ba::t_9f0ce2459ca465 1-204
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_object_lifecycle.groovy
+  s_f53801d87886ba::t_96566801e65a53 1-245
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_partition_consume.groovy
+  s_f53801d87886ba::t_8205c74200fd04 1-111
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_partition_lifecycle.groovy
+  s_f53801d87886ba::t_daeb1046f31f59 1-204
+regression-test/suites/cloud_p0/table_stream/test_cloud_table_stream_schema_change.groovy
+  s_f53801d87886ba::t_120719fa8d04a3 1-139
+regression-test/suites/compaction/test_admin_compact_tablet.groovy
+  s_f53801d87886ba::t_282e5599d4f4db 1-101
+regression-test/suites/compaction/test_mow_cumulative_compaction_multi_output_segments.groovy
+  s_f53801d87886ba::t_237d9bf1e19c93 1-424
+regression-test/suites/datatype_p0/timestamptz/test_timestamptz_dst_fold.groovy
+  s_f53801d87886ba::t_bfa89059ada129 44-54
+regression-test/suites/function_p0/cast/test_cast_string_to_number_with_nulls.groovy
+  s_f53801d87886ba::t_e77d6f2766783f 1-112
+regression-test/suites/insert_overwrite_p0/test_iot_overwrite_partition_star_hang.groovy
+  s_f53801d87886ba::t_e2379bfa5b938a 1-139
+regression-test/suites/job_p0/streaming_job/cdc/test_streaming_mysql_job_lag.groovy
+  s_f53801d87886ba::t_96a349d0a6fca3 77,83,85-104
+regression-test/suites/job_p0/streaming_job/cdc/test_streaming_mysql_job_metrics.groovy
+  s_f53801d87886ba::t_d08ab96a3dbfef 204-205,208-210,214-224,226-234,238-239
+regression-test/suites/job_p0/streaming_job/cdc/test_streaming_mysql_job_special_offset.groovy
+  s_f53801d87886ba::t_e6be5aee3f23ae 133,136,140-144
+regression-test/suites/job_p0/streaming_job/cdc/test_streaming_oceanbase_job.groovy
+  s_f53801d87886ba::t_833cf27756d936 141-152
+regression-test/suites/job_p0/streaming_job/cdc/test_streaming_postgres_job_lag.groovy
+  s_f53801d87886ba::t_02a44ad6009b11 72-79,88-90,96,98-101
+regression-test/suites/job_p0/streaming_job/cdc/test_streaming_postgres_job_publication.groovy
+  s_f53801d87886ba::t_d07875338f6c86 239-246
+regression-test/suites/job_p0/streaming_job/cdc/tvf/test_cdc_stream_tvf_publication.groovy
+  s_f53801d87886ba::t_7423bce4383595 188-196
+regression-test/suites/load_p0/cross_az_quorum/test_resource_group_load_success_quorum.groovy
+  s_f53801d87886ba::t_c979ee2c0b1e3e 1-119
+regression-test/suites/load_p0/cross_az_quorum/test_resource_group_load_success_quorum_min_load_replica.groovy
+  s_f53801d87886ba::t_011c1a3c701248 1-122
+regression-test/suites/nereids_rules_p0/column_pruning/lambda_null_pruning.groovy
+  s_f53801d87886ba::t_35f0582f435a1a 22-26,34-37,162-208
+regression-test/suites/nereids_rules_p0/column_pruning/nested_lambda_outer_argument_pruning.groovy
+  s_f53801d87886ba::t_b406e57957e470 1-85
+regression-test/suites/nereids_rules_p0/mv/tpch/mv_tpch_test.groovy
+  s_f53801d87886ba::t_f71ab7090ca59c 229-230,1233-1234
+regression-test/suites/nereids_rules_p0/partition_prune/always_mono_func.groovy
+  s_f53801d87886ba::t_0f00c926858785 126,130,143,147,151,172,221
+regression-test/suites/nereids_rules_p0/partition_prune/multi_column_range_partition.groovy
+  s_f53801d87886ba::t_d70c38ff4a6b14 74,214,260
+regression-test/suites/nereids_rules_p0/partition_prune/one_col_range_partition.groovy
+  s_f53801d87886ba::t_7f6f64f636d4b5 82,327
+regression-test/suites/nereids_rules_p0/partition_prune/one_key_range_part_test.groovy
+  s_f53801d87886ba::t_483ddbe1956308 86,90,217,221
+regression-test/suites/nereids_rules_p0/partition_prune/one_key_range_part_update_test.groovy
+  s_f53801d87886ba::t_b087248612c7f0 79,83
+regression-test/suites/nereids_rules_p0/partition_prune/test_add_sub_diff_ceil_floor.groovy
+  s_f53801d87886ba::t_24fd287d0e96c9 194-198,463-480
+regression-test/suites/nereids_rules_p0/subquery_to_window_function/correlated_scalar_subquery_to_window_function.groovy
+  s_f53801d87886ba::t_2406aab88683af 1-313
+regression-test/suites/partition_p0/auto_partition/test_auto_list_partition_null.groovy
+  s_f53801d87886ba::t_0ef5537195be17 20-39,58-75,83,90
+regression-test/suites/partition_p0/test_list_partition_maxvalue.groovy
+  s_f53801d87886ba::t_df76efa3e6137d 1-143
+regression-test/suites/plugin_p1/test_cloud_plugin_auto_download.groovy
+  s_f53801d87886ba::t_a8a52a4f949200 1-121
+regression-test/suites/query_p0/cte/test_constant_cte_partition_prune.groovy
+  s_f53801d87886ba::t_e5f29c031415da 1-80
+regression-test/suites/query_p0/eager_agg/distinct_agg_func_push_down.groovy
+  s_f53801d87886ba::t_786166377a829a 1-256
+regression-test/suites/query_p0/runtime_filter/rf_bucket_pruning.groovy
+  s_f53801d87886ba::t_0a37ce6405026f 1-136
+regression-test/suites/row_binlog_p0/test_row_binlog_basic.groovy
+  s_f53801d87886ba::t_c9985aa5d721b5 203-221,250-257
+regression-test/suites/schema_change/test_alter_database_property.groovy
+  s_f53801d87886ba::t_8c81628d2a86ce 19-23
+regression-test/suites/search/test_search_score_cache.groovy
+  s_f53801d87886ba::t_eec7dcaedf45a3 46-50
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query1.groovy
+  s_f53801d87886ba::t_5a46ff9e0c0a24 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query10.groovy
+  s_f53801d87886ba::t_9b510609c549a9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query11.groovy
+  s_f53801d87886ba::t_15ea64dcc6730c 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query12.groovy
+  s_f53801d87886ba::t_81a7b4fbe4c4fc 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query13.groovy
+  s_f53801d87886ba::t_e34a5f6e816522 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query14.groovy
+  s_f53801d87886ba::t_5d90657c1369de 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query15.groovy
+  s_f53801d87886ba::t_8dee2b32feaca3 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query16.groovy
+  s_f53801d87886ba::t_60e13036d06a2e 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query17.groovy
+  s_f53801d87886ba::t_f20461d4441ad5 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query18.groovy
+  s_f53801d87886ba::t_22855249601f60 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query19.groovy
+  s_f53801d87886ba::t_39d6d0dfb0f18b 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query2.groovy
+  s_f53801d87886ba::t_920489d9501959 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query20.groovy
+  s_f53801d87886ba::t_dde9d1453df6fe 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query21.groovy
+  s_f53801d87886ba::t_622c1d712fdfa5 41
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query22.groovy
+  s_f53801d87886ba::t_c3738a394b9747 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query23.groovy
+  s_f53801d87886ba::t_0b4e0e278de47b 42
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query24.groovy
+  s_f53801d87886ba::t_1ececf5425e3fe 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query25.groovy
+  s_f53801d87886ba::t_768d161377245c 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query26.groovy
+  s_f53801d87886ba::t_0dc33370d53b6e 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query27.groovy
+  s_f53801d87886ba::t_1fa125dde9f17c 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query28.groovy
+  s_f53801d87886ba::t_75f9016f7d33b9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query29.groovy
+  s_f53801d87886ba::t_97ca6aa5f070cf 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query3.groovy
+  s_f53801d87886ba::t_73efa81a9f243b 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query30.groovy
+  s_f53801d87886ba::t_2c3b08b843e5e1 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query31.groovy
+  s_f53801d87886ba::t_62f60d5cf8cb6e 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query32.groovy
+  s_f53801d87886ba::t_ef80059461b20a 42
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query33.groovy
+  s_f53801d87886ba::t_11a522b9c705a2 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query34.groovy
+  s_f53801d87886ba::t_ef95946b48941e 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query35.groovy
+  s_f53801d87886ba::t_395df4e8159b1e 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query36.groovy
+  s_f53801d87886ba::t_d93a123800eee3 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query37.groovy
+  s_f53801d87886ba::t_50937704a281c9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query38.groovy
+  s_f53801d87886ba::t_7740664088653e 42
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query39.groovy
+  s_f53801d87886ba::t_c77ec1e261d668 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query4.groovy
+  s_f53801d87886ba::t_ce3817fedb411a 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query40.groovy
+  s_f53801d87886ba::t_a185f06f532f16 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query41.groovy
+  s_f53801d87886ba::t_54aa3000d25c4f 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query42.groovy
+  s_f53801d87886ba::t_9c779603783250 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query43.groovy
+  s_f53801d87886ba::t_b6b29738d7fbb3 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query44.groovy
+  s_f53801d87886ba::t_b2e1dd7be170d0 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query45.groovy
+  s_f53801d87886ba::t_9d200f5e840dd7 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query46.groovy
+  s_f53801d87886ba::t_e719dc8ebd2744 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query47.groovy
+  s_f53801d87886ba::t_ca96911c2e3efa 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query48.groovy
+  s_f53801d87886ba::t_731cee3931a187 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query49.groovy
+  s_f53801d87886ba::t_17e4cec9033a59 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query5.groovy
+  s_f53801d87886ba::t_3e53f4418103be 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query50.groovy
+  s_f53801d87886ba::t_cc03b4494bc6a4 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query51.groovy
+  s_f53801d87886ba::t_d1139b63faa5f9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query52.groovy
+  s_f53801d87886ba::t_81d2d4d4af8f65 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query53.groovy
+  s_f53801d87886ba::t_79ee8b33960fa5 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query54.groovy
+  s_f53801d87886ba::t_90a85c52f1e9e4 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query55.groovy
+  s_f53801d87886ba::t_f36ca7598aa8ce 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query56.groovy
+  s_f53801d87886ba::t_6bf80d4cdec0ce 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query57.groovy
+  s_f53801d87886ba::t_cc377aea0903e9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query58.groovy
+  s_f53801d87886ba::t_16ec1c934cfeb0 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query59.groovy
+  s_f53801d87886ba::t_6551f128cd2237 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query6.groovy
+  s_f53801d87886ba::t_e3b7115278de82 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query60.groovy
+  s_f53801d87886ba::t_fcea57e2eb3674 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query61.groovy
+  s_f53801d87886ba::t_6f096098c10cf9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query62.groovy
+  s_f53801d87886ba::t_793e53c7edb963 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query63.groovy
+  s_f53801d87886ba::t_7d53735c55288c 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query64.groovy
+  s_f53801d87886ba::t_f2818960177a96 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query65.groovy
+  s_f53801d87886ba::t_85342a650cf77b 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query66.groovy
+  s_f53801d87886ba::t_3b968722886ec3 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query67.groovy
+  s_f53801d87886ba::t_f9725dcf91908d 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query68.groovy
+  s_f53801d87886ba::t_2d4d2e49f14d69 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query69.groovy
+  s_f53801d87886ba::t_4498c65ffe67b2 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query7.groovy
+  s_f53801d87886ba::t_08049686f05ead 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query70.groovy
+  s_f53801d87886ba::t_3562f6ff73fab1 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query71.groovy
+  s_f53801d87886ba::t_51d01723c25535 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query72.groovy
+  s_f53801d87886ba::t_9bb4ded347714d 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query73.groovy
+  s_f53801d87886ba::t_9741e559ee7c12 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query74.groovy
+  s_f53801d87886ba::t_1a68f573b6bf8d 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query75.groovy
+  s_f53801d87886ba::t_b57f8810d5ca4a 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query76.groovy
+  s_f53801d87886ba::t_d8c354df9c80ff 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query77.groovy
+  s_f53801d87886ba::t_4aff378fa69625 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query78.groovy
+  s_f53801d87886ba::t_b82c5a65cccfcd 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query79.groovy
+  s_f53801d87886ba::t_7b782a0efb7d85 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query8.groovy
+  s_f53801d87886ba::t_df28069a7f2902 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query80.groovy
+  s_f53801d87886ba::t_e9615a83e09680 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query81.groovy
+  s_f53801d87886ba::t_c53ecfd205947a 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query82.groovy
+  s_f53801d87886ba::t_f233ff07ef6fd1 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query83.groovy
+  s_f53801d87886ba::t_9a9a8957ad7ab9 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query84.groovy
+  s_f53801d87886ba::t_1b1831caab4eba 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query85.groovy
+  s_f53801d87886ba::t_5330f0c1cbb3b1 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query86.groovy
+  s_f53801d87886ba::t_6b1829e7600f53 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query87.groovy
+  s_f53801d87886ba::t_61e09739349a76 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query88.groovy
+  s_f53801d87886ba::t_3e89b3965e5427 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query89.groovy
+  s_f53801d87886ba::t_256ec0a2001c86 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query9.groovy
+  s_f53801d87886ba::t_bd65bea51a0b7d 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query90.groovy
+  s_f53801d87886ba::t_64b175de6f11a2 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query91.groovy
+  s_f53801d87886ba::t_bf98f4c0a657aa 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query92.groovy
+  s_f53801d87886ba::t_66a01618f947a4 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query93.groovy
+  s_f53801d87886ba::t_c1bbe225f76e28 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query94.groovy
+  s_f53801d87886ba::t_5299ac53ba42a3 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query95.groovy
+  s_f53801d87886ba::t_dcec4417a34e8f 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query96.groovy
+  s_f53801d87886ba::t_5cf1f3d701f8fe 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query97.groovy
+  s_f53801d87886ba::t_1b448dcd91fd4e 42
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query98.groovy
+  s_f53801d87886ba::t_5012b4419b0b89 40
+regression-test/suites/shape_check/tpcds_sf1000/dphyper/query99.groovy
+  s_f53801d87886ba::t_752ba81ffafd7b 40
+regression-test/suites/shape_check/tpcds_sf1000_constraints/load.groovy
+  s_f53801d87886ba::t_92c63e502e0d6c 1-2528
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query1.groovy
+  s_f53801d87886ba::t_5f9ae22c8c0c84 1-88
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query10.groovy
+  s_f53801d87886ba::t_51622d0cf94e58 1-156
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query11.groovy
+  s_f53801d87886ba::t_2c71ec7c5cd901 1-200
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query12.groovy
+  s_f53801d87886ba::t_c55cd17132af75 1-106
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query13.groovy
+  s_f53801d87886ba::t_05575a70a77cce 1-142
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query14.groovy
+  s_f53801d87886ba::t_94a0265a616103 1-246
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query15.groovy
+  s_f53801d87886ba::t_97116be06c02ab 1-78
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query16.groovy
+  s_f53801d87886ba::t_96b1b7067cbeeb 1-100
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query17.groovy
+  s_f53801d87886ba::t_923d2265b11b94 1-128
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query18.groovy
+  s_f53801d87886ba::t_520fc79c2b49e8 1-106
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query19.groovy
+  s_f53801d87886ba::t_e728d5dcdbd4d9 1-88
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query2.groovy
+  s_f53801d87886ba::t_b77cd11be08b52 1-158
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query20.groovy
+  s_f53801d87886ba::t_610cfd9c82aa35 1-98
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query21.groovy
+  s_f53801d87886ba::t_75c050b83913ff 1-99
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query22.groovy
+  s_f53801d87886ba::t_a960ad09ce76a1 1-78
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query23.groovy
+  s_f53801d87886ba::t_66e469fb0ca5ad 1-145
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query24.groovy
+  s_f53801d87886ba::t_faf9f2d4a1c0e5 1-148
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query25.groovy
+  s_f53801d87886ba::t_aa1faecf712766 1-134
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query26.groovy
+  s_f53801d87886ba::t_bd01a12607cad8 1-80
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query27.groovy
+  s_f53801d87886ba::t_32c1228f5b8456 1-84
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query28.groovy
+  s_f53801d87886ba::t_54808bd7a6bdb5 1-144
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query29.groovy
+  s_f53801d87886ba::t_434d9c37102561 1-132
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query3.groovy
+  s_f53801d87886ba::t_57e0a35e5d41b9 1-80
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query30.groovy
+  s_f53801d87886ba::t_d705683d74f280 1-100
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query31.groovy
+  s_f53801d87886ba::t_aebe780d69b1ce 1-142
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query32.groovy
+  s_f53801d87886ba::t_b962e8c833202b 1-97
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query33.groovy
+  s_f53801d87886ba::t_ba63fc1592cc67 1-188
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query34.groovy
+  s_f53801d87886ba::t_125d9981188a97 1-100
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query35.groovy
+  s_f53801d87886ba::t_e9da9566428554 1-154
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query36.groovy
+  s_f53801d87886ba::t_5dfd02db0babc6 1-98
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query37.groovy
+  s_f53801d87886ba::t_88252df10f99b3 1-72
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query38.groovy
+  s_f53801d87886ba::t_0e23979588f6b8 1-87
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query39.groovy
+  s_f53801d87886ba::t_66132316bc26d6 1-92
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query4.groovy
+  s_f53801d87886ba::t_296be6960a39fd 1-270
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query40.groovy
+  s_f53801d87886ba::t_104ca24f6e6cbb 1-94
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query41.groovy
+  s_f53801d87886ba::t_655e2575ca0648 1-142
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query42.groovy
+  s_f53801d87886ba::t_5b2f2609b2a615 1-82
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query43.groovy
+  s_f53801d87886ba::t_a6dffdf38ce203 1-76
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query44.groovy
+  s_f53801d87886ba::t_8535e6958fb8b9 1-108
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query45.groovy
+  s_f53801d87886ba::t_be063d3e93d124 1-78
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query46.groovy
+  s_f53801d87886ba::t_43472f80d62e07 1-108
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query47.groovy
+  s_f53801d87886ba::t_b7ce21106f2534 1-140
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query48.groovy
+  s_f53801d87886ba::t_10ba69799582d3 1-172
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query49.groovy
+  s_f53801d87886ba::t_13cd3894a596f5 1-296
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query5.groovy
+  s_f53801d87886ba::t_101790854c5f88 1-294
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query50.groovy
+  s_f53801d87886ba::t_a4b7bef488f941 1-156
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query51.groovy
+  s_f53801d87886ba::t_ee87d40aaee1fd 1-128
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query52.groovy
+  s_f53801d87886ba::t_60763492926b88 1-82
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query53.groovy
+  s_f53801d87886ba::t_63b11c067f69df 1-94
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query54.groovy
+  s_f53801d87886ba::t_f5fc21f82edfbb 1-150
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query55.groovy
+  s_f53801d87886ba::t_f719b4027359a4 1-66
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query56.groovy
+  s_f53801d87886ba::t_4f894241e74a25 1-176
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query57.groovy
+  s_f53801d87886ba::t_31ebce55b9258e 1-134
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query58.groovy
+  s_f53801d87886ba::t_5a5f7781f68c22 1-168
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query59.groovy
+  s_f53801d87886ba::t_fe4a1561d1f233 1-126
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query6.groovy
+  s_f53801d87886ba::t_45b8fe2cc00661 1-90
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query60.groovy
+  s_f53801d87886ba::t_7f21e94f1a9f7f 1-194
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query61.groovy
+  s_f53801d87886ba::t_0081be281196e1 1-126
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query62.groovy
+  s_f53801d87886ba::t_c613d74760b46d 1-108
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query63.groovy
+  s_f53801d87886ba::t_3abb886d88e489 1-96
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query64.groovy
+  s_f53801d87886ba::t_b026a301405b1f 1-281
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query65.groovy
+  s_f53801d87886ba::t_2a6499fc774491 1-96
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query66.groovy
+  s_f53801d87886ba::t_03eab561cd4394 1-478
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query67.groovy
+  s_f53801d87886ba::t_6c6623907396bc 1-126
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query68.groovy
+  s_f53801d87886ba::t_51bf9ad5a73155 1-122
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query69.groovy
+  s_f53801d87886ba::t_b239e83983699c 1-132
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query7.groovy
+  s_f53801d87886ba::t_68b87e108ff54b 1-80
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query70.groovy
+  s_f53801d87886ba::t_fba926d3556c95 1-114
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query71.groovy
+  s_f53801d87886ba::t_59dc7cb4965cf3 1-118
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query72.groovy
+  s_f53801d87886ba::t_a47c92476eac9b 1-96
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query73.groovy
+  s_f53801d87886ba::t_be9dbcc060d931 1-94
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query74.groovy
+  s_f53801d87886ba::t_a32a523dbd1a55 1-160
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query75.groovy
+  s_f53801d87886ba::t_ccc5c2ed4a17dc 1-178
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query76.groovy
+  s_f53801d87886ba::t_80d40d7512a6a0 1-86
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query77.groovy
+  s_f53801d87886ba::t_e65e7ca701631a 1-254
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query78.groovy
+  s_f53801d87886ba::t_06a8ade6cc6675 1-154
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query79.groovy
+  s_f53801d87886ba::t_25d75793e0bbaf 1-84
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query8.groovy
+  s_f53801d87886ba::t_e2ef8940638694 1-255
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query80.groovy
+  s_f53801d87886ba::t_7c0bd014af5043 1-230
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query81.groovy
+  s_f53801d87886ba::t_9081504577f06c 1-100
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query82.groovy
+  s_f53801d87886ba::t_ef23fa1a3a6330 1-72
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query83.groovy
+  s_f53801d87886ba::t_73f57be37ae708 1-172
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query84.groovy
+  s_f53801d87886ba::t_6165e7f0d02f56 1-80
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query85.groovy
+  s_f53801d87886ba::t_767f57ef95de4c 1-205
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query86.groovy
+  s_f53801d87886ba::t_2ec4f56b2c4f6f 1-90
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query87.groovy
+  s_f53801d87886ba::t_059819bcceaca5 1-84
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query88.groovy
+  s_f53801d87886ba::t_5c2279a518c58c 1-226
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query89.groovy
+  s_f53801d87886ba::t_600f64fa3bd09c 1-94
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query9.groovy
+  s_f53801d87886ba::t_5fc5a8e49e1f46 1-141
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query90.groovy
+  s_f53801d87886ba::t_7181ac69e72ea1 1-82
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query91.groovy
+  s_f53801d87886ba::t_66d05bdb7d8142 1-100
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query92.groovy
+  s_f53801d87886ba::t_faadfbacc4bd95 1-98
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query93.groovy
+  s_f53801d87886ba::t_203da6bcf50eb8 1-74
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query94.groovy
+  s_f53801d87886ba::t_795e94d5269468 1-96
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query95.groovy
+  s_f53801d87886ba::t_f0093f537c81a6 1-102
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query96.groovy
+  s_f53801d87886ba::t_550e820ee822e8 1-70
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query97.groovy
+  s_f53801d87886ba::t_0c7a05f97aa58b 1-91
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query98.groovy
+  s_f53801d87886ba::t_d7f0b69a808f94 1-104
+regression-test/suites/shape_check/tpcds_sf1000_constraints/shape/query99.groovy
+  s_f53801d87886ba::t_f61e4bfeb32a98 1-108
+regression-test/suites/shape_check/tpch_sf1000_constraints/load.groovy
+  s_f53801d87886ba::t_805026be656eda 1-502
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q1.groovy
+  s_f53801d87886ba::t_e4f936d27b37b8 1-62
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q10.groovy
+  s_f53801d87886ba::t_f979663082dbc9 1-74
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q11.groovy
+  s_f53801d87886ba::t_e09e02429201b7 1-71
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q12.groovy
+  s_f53801d87886ba::t_a7fd86fcab3762 1-69
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q13.groovy
+  s_f53801d87886ba::t_993202cd7ffa2e 1-65
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q14.groovy
+  s_f53801d87886ba::t_d631aeb685cf45 1-55
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q15.groovy
+  s_f53801d87886ba::t_4dc2d20e68c995 1-65
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q16.groovy
+  s_f53801d87886ba::t_5328a728bc2746 1-76
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q17.groovy
+  s_f53801d87886ba::t_debb3a2dec1d4d 1-63
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q18.groovy
+  s_f53801d87886ba::t_eadc998b8986a8 1-79
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q19.groovy
+  s_f53801d87886ba::t_03daba1ae3671f 1-83
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q2.groovy
+  s_f53801d87886ba::t_4b383f45f7ac93 1-90
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q20-rewrite.groovy
+  s_f53801d87886ba::t_a2b8c2ce0a642c 1-74
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q20.groovy
+  s_f53801d87886ba::t_bb03010a79f241 1-84
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q21.groovy
+  s_f53801d87886ba::t_0068e613c5e07b 1-86
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q22.groovy
+  s_f53801d87886ba::t_ec2b98bc20fa10 1-83
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q3.groovy
+  s_f53801d87886ba::t_418585254642a7 1-70
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q4.groovy
+  s_f53801d87886ba::t_0f71db0f4cd8d1 1-66
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q5.groovy
+  s_f53801d87886ba::t_e50d20467df380 1-70
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q6.groovy
+  s_f53801d87886ba::t_a69acbdaa6a787 1-55
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q7.groovy
+  s_f53801d87886ba::t_c7cc287ba68b94 1-85
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q8.groovy
+  s_f53801d87886ba::t_a1b008be8a3dec 1-83
+regression-test/suites/shape_check/tpch_sf1000_constraints/shape/q9.groovy
+  s_f53801d87886ba::t_98a722056490e8 1-78
+regression-test/suites/show_p0/test_show_create_table_and_views_nereids.groovy
+  s_f53801d87886ba::t_5f99a4d76ce4b2 41-44
+regression-test/suites/table_stream_p0/test_olap_table_stream_history_query.groovy
+  s_f53801d87886ba::t_3bed7f2a6c9c4f 134-135,138-153,158-159
+regression-test/suites/table_stream_p0/test_olap_table_stream_snapshot.groovy
+  s_f53801d87886ba::t_bb1d6cfa727694 65-71,146
+regression-test/suites/table_stream_p0/test_table_stream_multi_segment_mow.groovy
+  s_f53801d87886ba::t_6d491d20d99de0 1-538
+regression-test/suites/table_stream_p0/test_table_stream_query_comprehensive.groovy
+  s_f53801d87886ba::t_630457e7dba52b 175-191
+thirdparty/download-thirdparty.sh
+  s_f53801d87886ba::t_681b967268d3b6 822,824,827
+thirdparty/patches/lance-c-0.1.7-pr-64.patch
+  s_f53801d87886ba::t_fbff27b98c22e6 1-12,14,17-59,61,63-67,69-70,72-74,77-96,98,101-110,112,115-164,166-182,184-195,198,200-211,213-229,231-311,313-316,318,320,325-328,330-333,335-338,341-345,347-354,358-360,362,365-436,438-439,443,445-447,449-455,458-486,488-494,498-503,505-510,513-517,521-526,528,531,533,538-544,546-549,551-560,562-568,571-724,726-727,730-734,737,739,742,744-745,751-765,767,770-771,773-774,776-788,790-792,794-800,804-813,815,820-848,851-1150,1153-1168,1170-1205,1207,1210,1212,1214-1217,1219-1237,1239-1241,1244,1246-1247,1253-1262,1265-1278,1280-1283,1285-1286,1288-1289,1291-1297,1302,1304-1305,1314,1317-1322,1328-1469,1471,1474-1482,1484-1494,1497-1522
+thirdparty/vars.sh
+  s_f53801d87886ba::t_a42fb7c9f8a8a4 586-589
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3014400b6780d01fa2fe2b726555ccad4f42bb14",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
