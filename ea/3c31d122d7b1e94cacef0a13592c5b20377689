@@ -1,0 +1,127 @@
+fe/fe-connector/fe-connector-hms/src/main/java/org/apache/doris/connector/hms/event/HmsEventParser.java
+  s_f53801d87886ba::t_0df8f6aa707012 129-130
+fe/fe-connector/fe-connector-spi/src/main/java/org/apache/doris/connector/spi/event/MetastoreChangeDescriptor.java
+  s_f53801d87886ba::t_7ddb8881bec889 91,107,113,126,132
+fe/fe-connector/fe-connector-spi/src/test/java/org/apache/doris/connector/spi/ConnectorPluginSurfaceTest.java
+  s_f53801d87886ba::t_56654e5155a96b 76-78
+fe/fe-connector/pom.xml
+  s_f53801d87886ba::t_b53b3b8f2a3860 58
+fe/fe-core/src/main/java/org/apache/doris/alter/Alter.java
+  s_f53801d87886ba::t_3218141768d340 740-744,746-747,749-759,761-766,768-770
+fe/fe-core/src/main/java/org/apache/doris/alter/SchemaChangeHandler.java
+  s_f53801d87886ba::t_927f1c34d1bef9 546,561-564,608,610-615,991-1000
+fe/fe-core/src/main/java/org/apache/doris/backup/BackupHandler.java
+  s_f53801d87886ba::t_823a5854353b55 640,642-643
+fe/fe-core/src/main/java/org/apache/doris/backup/BackupJob.java
+  s_f53801d87886ba::t_67aae373d489f9 613
+fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java
+  s_f53801d87886ba::t_1ddc430e9265a5 603-606,1070-1091,1685-1686,2242,2255,2264-2267,2269-2270,2303,2305,2313,2316,2322,2328,2339,2357,2616-2619,2622-2623,2625-2654,2656-2658,2660-2677,2679,2682-2692,2694,2698-2700,2702-2705,2707-2722,2724-2735,2738-2759,2762
+fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+  s_f53801d87886ba::t_66d63658bfd61d 6001-6008,6353-6356,6407-6420
+fe/fe-core/src/main/java/org/apache/doris/catalog/RefreshManager.java
+  s_f53801d87886ba::t_b9b864a1dd8c5d 60-62,71,92-96,105-118,120-123,125,156-160,162-163,165-168,170,172-176
+fe/fe-core/src/main/java/org/apache/doris/catalog/TableAttributes.java
+  s_f53801d87886ba::t_b32a2da61a0bc6 21,36-37,57-60
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_0c56692acf4615 31-32,36,42,66,111-115,119-120,126,131-134,141,149-157,159-174,176,183-184,213,225,234-257,260-285,304-321,339-341,344-347,349-350,356,360-362,369-374,376-377,380-381,385-387,390-402,407-408,411-419,425-449,458,460,463-465,468-484,487-489,491,497-498,501-504,506-507,509-511,519,522-524,535,538-541,551,573-574,577-581,583-594,596-598,602-603,750-768,873,878,887-902,1069,1073,1174-1235,1271,1275,1278,1282
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/DistributionMappingConstraint.java
+  s_f53801d87886ba::t_31f1beb6c519a7 20-23,25,41-50,55-63,68-72,87-197
+fe/fe-core/src/main/java/org/apache/doris/cloud/catalog/CloudEnv.java
+  s_f53801d87886ba::t_f2bd2b881d2b56 453
+fe/fe-core/src/main/java/org/apache/doris/common/cache/NereidsSqlCacheManager.java
+  s_f53801d87886ba::t_0eb4f9f455a059 115,127-135,137-139,144-145,150,167-169,211,214,246,264
+fe/fe-core/src/main/java/org/apache/doris/datasource/CatalogMgr.java
+  s_f53801d87886ba::t_b8dcee643057f2 138-140,305,349,599
+fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalCatalog.java
+  s_f53801d87886ba::t_c30a61a587ceef 966-978,1182,1192,1202,1268
+fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalDatabase.java
+  s_f53801d87886ba::t_04933f1472bc33 124-126,349-362
+fe/fe-core/src/main/java/org/apache/doris/datasource/ExternalMetaIdMgr.java
+  s_f53801d87886ba::t_c40729237d57a2 117-122
+fe/fe-core/src/main/java/org/apache/doris/datasource/InternalCatalog.java
+  s_f53801d87886ba::t_fea96d930eb5d3 556-566,568-572,619-620,625-627,629-633,635-639,642-643,645-654,657,953,958,978,988-989,1011,1052,2091
+fe/fe-core/src/main/java/org/apache/doris/datasource/MetastoreEventSyncDriver.java
+  s_f53801d87886ba::t_f548feb0e438aa 64-65,75-80,101,185,196,202,219,222,227,233-234,237,248-249,371-373,379-380,383-387,403-409
+fe/fe-core/src/main/java/org/apache/doris/datasource/log/MetaIdMappingsLog.java
+  s_f53801d87886ba::t_91446612f10508 66
+fe/fe-core/src/main/java/org/apache/doris/datasource/plugin/PluginDrivenExternalCatalog.java
+  s_f53801d87886ba::t_07abedb61b91c9 543-544,552-564,566-575,585,595,598-605,607-611,641-652,693,695,699-710,712-720,749-754,830-833,839-842,913-919,929-934,944-949,959-964,974-980,990-995,1019-1025,1039-1044,1058-1063,1078-1084,1301,1307
+fe/fe-core/src/main/java/org/apache/doris/nereids/StatementContext.java
+  s_f53801d87886ba::t_c76f39768b6b55 386
+fe/fe-core/src/main/java/org/apache/doris/nereids/properties/RequestPropertyDeriver.java
+  s_f53801d87886ba::t_bf3af8cae5fe37 554
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/implementation/LogicalOlapScanToPhysicalOlapScan.java
+  s_f53801d87886ba::t_db9583b3fab1c4 145-147,152-158,166,172,175-181
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/AddConstraintCommand.java
+  s_f53801d87886ba::t_c2470a9b0219bc 95-97,99-100,102-103,107-112,128-129,131-140,143-148,150-157,160,162
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/DropConstraintCommand.java
+  s_f53801d87886ba::t_bde866dce55dac 73-83,88-93,101-137,156-168
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/ShowConstraintsCommand.java
+  s_f53801d87886ba::t_2e9d012789881a 76
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/execute/ConnectorExecuteAction.java
+  s_f53801d87886ba::t_c15dea39cd8533 158-164,166,172-188
+fe/fe-core/src/main/java/org/apache/doris/persist/AlterConstraintLog.java
+  s_f53801d87886ba::t_7f07a5e76d81d0 53
+fe/fe-core/src/main/java/org/apache/doris/persist/EditLog.java
+  s_f53801d87886ba::t_bf847aa24baf6e 216-219,225-242,245,249-250,255,272,282,1007-1010,1229-1230,1246-1247,1640-1642,1651-1653,1655-1663,1666-1670,1734,2585-2592
+fe/fe-core/src/main/java/org/apache/doris/persist/ModifyTablePropertyOperationLog.java
+  s_f53801d87886ba::t_9059f4b230d7d2 20,49-52,79-98,123-134
+fe/fe-core/src/test/java/org/apache/doris/alter/SchemaChangeJobV2Test.java
+  s_f53801d87886ba::t_6c0da6d71ef855 98,580-586,601,603,605-648
+fe/fe-core/src/test/java/org/apache/doris/backup/BackupJobTest.java
+  s_f53801d87886ba::t_f46ee73aae39f3 372-386
+fe/fe-core/src/test/java/org/apache/doris/backup/RestoreJobTest.java
+  s_f53801d87886ba::t_afd4bbb1022e2b 281-364
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_d705bb57027be6 24,26,30,99-102,106-107,109,113-114,118-121,123,125-132,134-136,140-142,146-150,153-163,167-170,172,174-176,178,180-183,187,191-193,197-204,206-209,211-214,218-223,225-227,231-242,244-246,248-254,256-271,275-284,286-288,290-291,295-316,435,461,537,552,563,579,595
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintPersistTest.java
+  s_f53801d87886ba::t_ccb330f2aaa85d 20,24,39,214-215,220,223-227,230-231,233-237,243-246,248-254,256,258-268,270
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/DistributionMappingConstraintPersistTest.java
+  s_f53801d87886ba::t_f05071373b6f5a 18,20,22-25,27-28,32,34,36,39-125
+fe/fe-core/src/test/java/org/apache/doris/datasource/CatalogMgrTest.java
+  s_f53801d87886ba::t_bd34b93c8c9252 44
+fe/fe-core/src/test/java/org/apache/doris/datasource/ExternalCatalogTest.java
+  s_f53801d87886ba::t_e6b0ec4bc13bda 830,909,917,922-923
+fe/fe-core/src/test/java/org/apache/doris/datasource/ExternalDatabaseTest.java
+  s_f53801d87886ba::t_016d312dab3194 502,511,516-517,528,565
+fe/fe-core/src/test/java/org/apache/doris/datasource/ExternalMetaIdMgrTest.java
+  s_f53801d87886ba::t_33c9f0cfc1ab04 85-87,97,99,112-113,119,121,124,134
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverMappedNameTest.java
+  s_f53801d87886ba::t_c3544548358d0b 124-125
+fe/fe-core/src/test/java/org/apache/doris/datasource/MetastoreEventSyncDriverRenameTest.java
+  s_f53801d87886ba::t_6497d37c946998 48-49,72-73,98-99,123,126-127,152,155-156
+fe/fe-core/src/test/java/org/apache/doris/datasource/plugin/PluginDrivenExternalCatalogDdlRoutingTest.java
+  s_f53801d87886ba::t_31210e06a9f8a7 275-276,380,1002-1003,1062-1063,1245
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/ChildOutputPropertyDeriverTest.java
+  s_f53801d87886ba::t_0812a310024c0c 32,63,1288-1315
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/RequestPropertyDeriverTest.java
+  s_f53801d87886ba::t_3a5cf63c565a6b 343,362-369
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/implementation/LogicalOlapScanToPhysicalOlapScanTest.java
+  s_f53801d87886ba::t_8e09dc7b019c79 21,23-25,27-29,34-37,42,100-177
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/ConstraintTest.java
+  s_f53801d87886ba::t_81472188303476 31,146-177,179-203,205-232,236-239,241-246,248,253-337,342-382,385-392,394-395
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/commands/execute/ConnectorExecuteActionTest.java
+  s_f53801d87886ba::t_9b4093415fc688 490
+fe/fe-core/src/test/java/org/apache/doris/persist/EditLogTest.java
+  s_f53801d87886ba::t_9dbd7a368cc28b 35-36,40,73-83,87-88,90-93,95-100,104-109,111,113-124,126-132,134,136-138,140-141,146
+regression-test/suites/query_p0/colocate/test_colocate_mapping_constraint.groovy
+  s_f53801d87886ba::t_b0b15fce848dc6 840-853
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "ea3c31d122d7b1e94cacef0a13592c5b20377689",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
