@@ -1,0 +1,33 @@
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_94f2fb73215f78 45,73-74,372,388-401,412-423,426,429-437,1238,1240-1254,1263
+fe/fe-core/src/main/java/org/apache/doris/nereids/properties/RequestPropertyDeriver.java
+  s_f53801d87886ba::t_3b67088a8c2f1e 554
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_fc3785b4736750 21,31,317,321-377,891-917
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/ChildrenPropertiesRegulatorTest.java
+  s_f53801d87886ba::t_3816b90f957844 208-210,222-223
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/RequestPropertyDeriverTest.java
+  s_f53801d87886ba::t_de5d65ee864bd2 343,366-367,370-372
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/implementation/LogicalOlapScanToPhysicalOlapScanTest.java
+  s_f53801d87886ba::t_bd79fbe998e76a 30,148,157,171-172
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/ConstraintTest.java
+  s_f53801d87886ba::t_1c75d2c2ddc8c6 205,226-227
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "fc9080352e3340f9788ae108e42c19707287ed37",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
