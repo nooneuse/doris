@@ -1,0 +1,45 @@
+fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java
+  s_f53801d87886ba::t_4f72c0c0e7b084 1077-1083
+fe/fe-core/src/main/java/org/apache/doris/nereids/properties/ChildOutputPropertyDeriver.java
+  s_f53801d87886ba::t_4f8ea51ff0da8c 346,373-374,376-377,380,424-425,534,548-549,721
+fe/fe-core/src/main/java/org/apache/doris/nereids/properties/PhysicalProperties.java
+  s_f53801d87886ba::t_2df0b205f050e0 72,80
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/commands/DropConstraintCommand.java
+  s_f53801d87886ba::t_664695153ba3bb 128-129,132
+fe/fe-core/src/test/java/org/apache/doris/backup/RestoreJobTest.java
+  s_f53801d87886ba::t_d7ee08dd1da452 302-326
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/ChildOutputPropertyDeriverTest.java
+  s_f53801d87886ba::t_4fac9935c5f133 29,49,52,56,61,65,614,618,621-624,640,700,703-706,715-758,865,890,1078,1352,1371-1398
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/ChildrenPropertiesRegulatorTest.java
+  s_f53801d87886ba::t_993654ddb14af3 221,223,300,307-314
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/DistributionSpecHashTest.java
+  s_f53801d87886ba::t_7b59ac01fa6255 32,407-414,417,420
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/plans/ConstraintTest.java
+  s_f53801d87886ba::t_3d2fbc4318e7ad 204-244
+fe/fe-core/src/test/java/org/apache/doris/nereids/util/JoinUtilsTest.java
+  s_f53801d87886ba::t_3223f648518c3e 273,277,288-294
+regression-test/data/query_p0/colocate/test_colocate_mapping_constraint.out
+  s_f53801d87886ba::t_f7adfff50f5bf7 2-22
+regression-test/suites/backup_restore/test_backup_restore_atomic_with_alter.groovy
+  s_f53801d87886ba::t_b8bbc5c6dd5d7f 28-29,33-45,110-118,138,217-222,257-356
+regression-test/suites/query_p0/colocate/test_colocate_mapping_constraint.groovy
+  s_f53801d87886ba::t_51599d0cd7d734 800-899
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "8e86f97e37a177eaf75df4f21857b7137d51aaf2",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
