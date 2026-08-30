@@ -1,0 +1,35 @@
+fe/fe-core/src/main/java/org/apache/doris/backup/RestoreJob.java
+  s_f53801d87886ba::t_7e59ae44f11b00 645-652
+fe/fe-core/src/main/java/org/apache/doris/catalog/TableProperty.java
+  s_f53801d87886ba::t_6ba855e12c487b 601-602
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_4ec5e31a8c350c 373-376,1213-1216
+fe/fe-core/src/test/java/org/apache/doris/backup/RestoreJobTest.java
+  s_f53801d87886ba::t_1579c08f44e0a1 308-361
+fe/fe-core/src/test/java/org/apache/doris/catalog/OlapTableTest.java
+  s_f53801d87886ba::t_6aece38fff1426 21,173-189
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_45f84bf0b4865c 232-246,365-377
+regression-test/suites/ccr_syncer_p1/test_colocate_mapping_constraint.groovy
+  s_f53801d87886ba::t_08a6d149ac0a1b 1-111
+regression-test/suites/query_p0/colocate/test_colocate_mapping_constraint_being_synced.groovy
+  s_f53801d87886ba::t_f6822061b7569d 1-73
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "645a1b81f81fd1a773f68829edae858d39761b6c",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
