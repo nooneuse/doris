@@ -1,0 +1,53 @@
+fe/fe-core/src/main/java/org/apache/doris/catalog/Env.java
+  s_f53801d87886ba::t_17ed7c433a55ba 6413-6414
+fe/fe-core/src/main/java/org/apache/doris/catalog/TableProperty.java
+  s_f53801d87886ba::t_d20db7da4669b8 21,27,39,42,48,50,68-69,74-76,180,739-806,1033
+fe/fe-core/src/main/java/org/apache/doris/catalog/constraint/ConstraintManager.java
+  s_f53801d87886ba::t_8eb16be18b1b82 25,171-175,248,253-257,267-268,271-272,275-279,1265-1276
+fe/fe-core/src/main/java/org/apache/doris/nereids/properties/ChildOutputPropertyDeriver.java
+  s_f53801d87886ba::t_d4c321f21b2dac 254-257
+fe/fe-core/src/main/java/org/apache/doris/nereids/properties/RequestPropertyDeriver.java
+  s_f53801d87886ba::t_00ddd9c07915f0 523
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/physical/PhysicalHashAggregate.java
+  s_f53801d87886ba::t_dc239f95258faa 33,195-214
+fe/fe-core/src/main/java/org/apache/doris/persist/ModifyTablePropertyOperationLog.java
+  s_f53801d87886ba::t_b7ffa59d361718 20,100
+fe/fe-core/src/test/java/org/apache/doris/alter/SchemaChangeJobV2Test.java
+  s_f53801d87886ba::t_b3cb2ce142dacd 45,581-583,619-621
+fe/fe-core/src/test/java/org/apache/doris/backup/BackupJobTest.java
+  s_f53801d87886ba::t_d66c11457e5cfc 376-378,383
+fe/fe-core/src/test/java/org/apache/doris/backup/RestoreJobTest.java
+  s_f53801d87886ba::t_864c8d283d5131 36,286-288,312-314,338-340
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintManagerTest.java
+  s_f53801d87886ba::t_fe1fd3f9092636 26,34,52,152,158,163,180,206,210,215,323-324,327,352-353,358-359,892-905,924
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/ConstraintPersistTest.java
+  s_f53801d87886ba::t_0eb0e7ceba6bbe 27,223-224,227-229,238-241,255-258
+fe/fe-core/src/test/java/org/apache/doris/catalog/constraint/DistributionMappingConstraintPersistTest.java
+  s_f53801d87886ba::t_084cc5204e25f0 22,39-59,61,63,65,67,71-78,80-107,110,120,123-125
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/ChildOutputPropertyDeriverTest.java
+  s_f53801d87886ba::t_a2a7028322ab3b 41,826,829-830,858,861-862,896,899-900,908-909,933,936-937,944-945,965,968-969,985,1010,1012-1036,1042-1059,1095,1098-1099,1118-1121
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/RequestPropertyDeriverTest.java
+  s_f53801d87886ba::t_08f7f4ff2429dd 46,330,333,343,364,376,391-466,472,477,480
+regression-test/data/query_p0/colocate/test_colocate_mapping_constraint.out
+  s_f53801d87886ba::t_1bf155e695093d 2-13
+regression-test/suites/query_p0/colocate/test_colocate_mapping_constraint.groovy
+  s_f53801d87886ba::t_bee3c62b458d0c 624-637,639-640,642-643,657-674,676-690,692,695,698-699,961-963
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "1669edacec4b5af5c731d64eba7b28e111626927",
+  "prompts": {},
+  "sessions": {
+    "s_f53801d87886ba": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a0330f-12c1-7380-a998-d67f3c0e279e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
