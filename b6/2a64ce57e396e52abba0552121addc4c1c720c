@@ -1,0 +1,37 @@
+PR_DESCRIPTION_SKETCH.md
+  s_a86c2a45f21c3b::t_ee8307360d74e7 1-70
+be/src/exprs/aggregate/aggregate_function_datasketches_hll_union_agg.cpp
+  s_a86c2a45f21c3b::t_a9dd5647405201 26,33
+be/src/exprs/aggregate/aggregate_function_datasketches_hll_union_agg.h
+  s_a86c2a45f21c3b::t_d323b39a75491f 56-58,67-70,72,87-88,90,99,166,177-190,218-220,224-225,253
+be/test/exprs/aggregate/agg_datasketches_hll_union_agg_test.cpp
+  s_a86c2a45f21c3b::t_4c1f889f2e3004 44-46,51-58,428-438,451-452,563-682
+contrib/datasketches-cpp
+  s_a86c2a45f21c3b::t_305892fde90d61 1
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAgg.java
+  s_a86c2a45f21c3b::t_eba86e828f3a7a 27,31,43,47-50,53-55,63-67,75-79,93-113,128,139-141
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAggTest.java
+  s_a86c2a45f21c3b::t_f00354c8999cbc 1-80
+regression-test/data/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.out
+  s_a86c2a45f21c3b::t_86ff77c7d55c0a 8-10
+regression-test/suites/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.groovy
+  s_a86c2a45f21c3b::t_fafcfa3abeca42 60-67,160-180
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b62a64ce57e396e52abba0552121addc4c1c720c",
+  "prompts": {},
+  "sessions": {
+    "s_a86c2a45f21c3b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06159-d57f-71f0-a852-f8079034e5e4",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
