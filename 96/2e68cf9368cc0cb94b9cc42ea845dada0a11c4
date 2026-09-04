@@ -1,0 +1,31 @@
+be/src/exprs/aggregate/aggregate_function_datasketches_hll_union_agg.h
+  s_a86c2a45f21c3b::t_feafa6d1e1f780 88-110
+be/test/exprs/aggregate/agg_datasketches_hll_union_agg_test.cpp
+  s_a86c2a45f21c3b::t_ca5b307eaa7859 628-658
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAgg.java
+  s_a86c2a45f21c3b::t_d97c10b98a06e0 93
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAggTest.java
+  s_a86c2a45f21c3b::t_ef19eadf91ec9f 20,23,25-28,35,86-87,100-122
+regression-test/data/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.out
+  s_a86c2a45f21c3b::t_c6dd37d74c496a 11-19
+regression-test/suites/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.groovy
+  s_a86c2a45f21c3b::t_f232538af09745 19-20,70-100
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "962e68cf9368cc0cb94b9cc42ea845dada0a11c4",
+  "prompts": {},
+  "sessions": {
+    "s_a86c2a45f21c3b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06159-d57f-71f0-a852-f8079034e5e4",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
