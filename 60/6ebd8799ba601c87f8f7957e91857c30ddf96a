@@ -1,0 +1,31 @@
+fe/fe-core/src/main/java/org/apache/doris/catalog/BuiltinScalarFunctions.java
+  s_a86c2a45f21c3b::t_5b15ffaa26c71b 22,739-740
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAgg.java
+  s_a86c2a45f21c3b::t_f918611084fedf 128
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAggState.java
+  s_a86c2a45f21c3b::t_630ca25594a19f 1-77
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAggTest.java
+  s_a86c2a45f21c3b::t_2b609a21b7e9fd 32,63-69,107-130,135-145,148-170
+regression-test/data/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.out
+  s_a86c2a45f21c3b::t_554a43a404850d 11-13,50-52
+regression-test/suites/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.groovy
+  s_a86c2a45f21c3b::t_c9777363272a97 70-78,233-271
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "606ebd8799ba601c87f8f7957e91857c30ddf96a",
+  "prompts": {},
+  "sessions": {
+    "s_a86c2a45f21c3b": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a06159-d57f-71f0-a852-f8079034e5e4",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
