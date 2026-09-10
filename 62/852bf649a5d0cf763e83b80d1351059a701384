@@ -1,0 +1,23 @@
+be/test/exprs/aggregate/agg_datasketches_hll_union_agg_test.cpp
+  s_00909d4b0de9c0::t_63387a2d510186 20,609-641
+regression-test/suites/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg.groovy
+  s_00909d4b0de9c0::t_2c9101d66d3c57 32-35,74-118
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "62852bf649a5d0cf763e83b80d1351059a701384",
+  "prompts": {},
+  "sessions": {
+    "s_00909d4b0de9c0": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a08568-7b8d-7720-b033-3dcb170dc37e",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
