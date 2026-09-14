@@ -1,0 +1,339 @@
+be/src/core/value/variant/variant_metadata.cpp
+  s_c632b687bbc0d7::t_ac31c46c36ebae 110-113,138,149,156,164,167-168
+be/src/core/value/variant/variant_metadata.h
+  s_c632b687bbc0d7::t_57494d8c63ab2a 50
+be/src/core/value/variant/variant_value.cpp
+  s_c632b687bbc0d7::t_8bb65162871cda 472-480,486-488,495-500
+be/src/exec/operator/hashjoin_build_sink.h
+  s_c632b687bbc0d7::t_9fb428f7a02680 135,139-144
+be/src/exec/pipeline/pipeline_fragment_context.cpp
+  s_c632b687bbc0d7::t_b10368f1d68559 722,755-757,761,765,769,772-773,777,854-856,859-864,1077-1082,2041-2046,2055-2062,2069-2071,2122-2125
+be/src/format_v2/parquet/parquet_profile.cpp
+  s_c632b687bbc0d7::t_4d331eacce5b56 110-119,358-362
+be/src/format_v2/parquet/parquet_profile.h
+  s_c632b687bbc0d7::t_89c9a94948085d 45-50,187-191
+be/src/format_v2/parquet/reader/variant_column_reader.cpp
+  s_c632b687bbc0d7::t_30c6abd9a4b4e7 28,30-31,40,45,47-48,52,63-65,458-471,614-709,712,731-1124,1185-1192,1195-1199,1203-1205,1213-1216,1222-1226,1232-1234,1238-1255,1267-1280,1284-1293,1298-1312,1320,1329-1331,1347-1351,1421-1424,1476-1493,1518-1614,1626-1627,1629-1630
+be/test/exec/operator/hashjoin_build_sink_test.cpp
+  s_c632b687bbc0d7::t_c676a8df6b992a 321-344,722
+be/test/exec/pipeline/local_exchanger_test.cpp
+  s_c632b687bbc0d7::t_e931aaad50c7d4 32,35,39,537-588,590,611-612,644-645,801-802,1456
+be/test/format_v2/parquet/variant_column_reader_test.cpp
+  s_c632b687bbc0d7::t_091cbac6cac060 71-80,508-1043
+be/test/util/variant/variant_value_test.cpp
+  s_c632b687bbc0d7::t_f4eca158254b37 391-397
+docker/thirdparties/docker-compose/sqlserver/init/03-create-table.sql
+  s_c632b687bbc0d7::t_c3d45ca7460e84 287-391
+docker/thirdparties/docker-compose/sqlserver/init/04-insert.sql
+  s_c632b687bbc0d7::t_1893cf911a5a79 135-154
+fe/fe-connector/fe-connector-jdbc/src/main/java/org/apache/doris/connector/jdbc/client/JdbcSQLServerConnectorClient.java
+  s_c632b687bbc0d7::t_aba36db92184f7 29-30,32-33,43-48,61-94,98-102,153-220
+fe/fe-connector/fe-connector-jdbc/src/test/java/org/apache/doris/connector/jdbc/client/JdbcSQLServerConnectorClientTest.java
+  s_c632b687bbc0d7::t_17fc2f45c728bc 26,32,36-39,142-265
+fe/fe-core/src/main/java/org/apache/doris/arrowflight/DorisFlightSqlProducer.java
+  s_c632b687bbc0d7::t_04f9198919b65b 200-204
+fe/fe-core/src/main/java/org/apache/doris/arrowflight/protocol/FlightProtocolAdapter.java
+  s_c632b687bbc0d7::t_202a7e96ae823f 33,70-77,141-234,338-347,349-350
+fe/fe-core/src/main/java/org/apache/doris/arrowflight/protocol/FlightResultSender.java
+  s_c632b687bbc0d7::t_5c5a19a1332fc9 69
+fe/fe-core/src/main/java/org/apache/doris/datasource/jdbc/client/JdbcSQLServerClient.java
+  s_c632b687bbc0d7::t_3ddc01da847717 24-28,31-36,48-81,85-89,143-212
+fe/fe-core/src/main/java/org/apache/doris/mysql/MysqlChannel.java
+  s_c632b687bbc0d7::t_60e01f8d71f001 60-64,153,438,514,567,578-586,595-597,603
+fe/fe-core/src/main/java/org/apache/doris/mysql/ProxyMysqlChannel.java
+  s_c632b687bbc0d7::t_64e6aa47849219 37-48
+fe/fe-core/src/main/java/org/apache/doris/mysql/protocol/MysqlProtocolAdapter.java
+  s_c632b687bbc0d7::t_3b7b95bee6560e 23,31,43,51,118-217,227-230
+fe/fe-core/src/main/java/org/apache/doris/mysql/protocol/MysqlResultSender.java
+  s_c632b687bbc0d7::t_4a7c0f94bd34fc 141
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/exploration/mv/PartitionCompensator.java
+  s_c632b687bbc0d7::t_9583cf55329883 203-207
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/EliminateAggCaseWhen.java
+  s_c632b687bbc0d7::t_6a4aec97f9a025 24,61-63
+fe/fe-core/src/main/java/org/apache/doris/nereids/rules/rewrite/LogicalResultSinkToShortCircuitPointQuery.java
+  s_c632b687bbc0d7::t_9b9f2003367952 71-76
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/AIAgg.java
+  s_c632b687bbc0d7::t_d5f816222090ca 43
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/AnyValue.java
+  s_c632b687bbc0d7::t_32629ff438d3a9 37-38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/AvgWeighted.java
+  s_c632b687bbc0d7::t_f008e44d72c38b 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BitmapAgg.java
+  s_c632b687bbc0d7::t_152b76ba368b3c 40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BitmapIntersect.java
+  s_c632b687bbc0d7::t_fed5881982af2d 38-39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BitmapUnion.java
+  s_c632b687bbc0d7::t_d46abcf21d77f9 39-40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BitmapUnionCount.java
+  s_c632b687bbc0d7::t_089c37bdc6d781 40-41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BitmapUnionInt.java
+  s_c632b687bbc0d7::t_fc99804bc6be51 44
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BoolAnd.java
+  s_c632b687bbc0d7::t_cfe2b99534919e 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BoolOr.java
+  s_c632b687bbc0d7::t_83a67f298bf93c 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/BoolXor.java
+  s_c632b687bbc0d7::t_049b35ea92fcfb 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/CollectList.java
+  s_c632b687bbc0d7::t_5fe91040fddeed 42
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/CollectSet.java
+  s_c632b687bbc0d7::t_7f9c99b4010aa7 41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Corr.java
+  s_c632b687bbc0d7::t_1c142b91478e69 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/CorrWelford.java
+  s_c632b687bbc0d7::t_9f13a983143ee4 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Covar.java
+  s_c632b687bbc0d7::t_47c6db438e38dc 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/CovarSamp.java
+  s_c632b687bbc0d7::t_9857098a192f31 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAgg.java
+  s_c632b687bbc0d7::t_5e7025195d8817 43-44
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/ExponentialMovingAverage.java
+  s_c632b687bbc0d7::t_53fb84af2f025f 46
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/GroupArrayIntersect.java
+  s_c632b687bbc0d7::t_53f56b9732f11f 39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/GroupArrayUnion.java
+  s_c632b687bbc0d7::t_4631a556e30f80 39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/GroupBitAnd.java
+  s_c632b687bbc0d7::t_5f5d0739f65951 40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/GroupBitOr.java
+  s_c632b687bbc0d7::t_820cbd7ca2b851 41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/GroupBitXor.java
+  s_c632b687bbc0d7::t_d5fa4284f013cb 41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/GroupBitmapXor.java
+  s_c632b687bbc0d7::t_1a2ba88f01eee6 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Histogram.java
+  s_c632b687bbc0d7::t_8e345114a60e48 40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/HllUnion.java
+  s_c632b687bbc0d7::t_b58eeeb9899172 39-40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/HllUnionAgg.java
+  s_c632b687bbc0d7::t_dcc5ceff56d34d 40-41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/IntersectCount.java
+  s_c632b687bbc0d7::t_9420b8830d9fcd 40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Kurt.java
+  s_c632b687bbc0d7::t_67d36dcafa35ed 37-38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/LinearHistogram.java
+  s_c632b687bbc0d7::t_67f7de43d8cacd 38-39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/MapAggregateFunction.java
+  s_c632b687bbc0d7::t_bbda78e3fdb385 35
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/MaxBy.java
+  s_c632b687bbc0d7::t_dc5c357ebb5c39 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Median.java
+  s_c632b687bbc0d7::t_cad6818b6a5528 44
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/MinBy.java
+  s_c632b687bbc0d7::t_6873067458a792 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/MultiDistinctCount.java
+  s_c632b687bbc0d7::t_336fe9a45816ef 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/MultiDistinctSum.java
+  s_c632b687bbc0d7::t_1e66040563ab82 36-37
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/MultiDistinctSum0.java
+  s_c632b687bbc0d7::t_81c62a1c1a2d3c 43-44
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Ndv.java
+  s_c632b687bbc0d7::t_995a91d178c05c 41-42
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/NullIgnoringAggregateFunction.java
+  s_c632b687bbc0d7::t_206d5bd67e9218 24-29
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/OrthogonalBitmapExprCalculate.java
+  s_c632b687bbc0d7::t_5ced3cc8f7a147 37-38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/OrthogonalBitmapExprCalculateCount.java
+  s_c632b687bbc0d7::t_e164d94e1d0bf0 38-39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/OrthogonalBitmapIntersect.java
+  s_c632b687bbc0d7::t_46d56a53d7fe91 37
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/OrthogonalBitmapIntersectCount.java
+  s_c632b687bbc0d7::t_ba955dba94ee79 34
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/OrthogonalBitmapUnionCount.java
+  s_c632b687bbc0d7::t_a61d562c69af43 38-39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Percentile.java
+  s_c632b687bbc0d7::t_395c7a5c53e75b 43
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/PercentileApprox.java
+  s_c632b687bbc0d7::t_ff051b827c6fc2 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/PercentileApproxArray.java
+  s_c632b687bbc0d7::t_b8fa7bb98f9857 41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/PercentileApproxWeighted.java
+  s_c632b687bbc0d7::t_160b80d5999233 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/PercentileArray.java
+  s_c632b687bbc0d7::t_375b9a0be200f1 46
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/PercentileReservoir.java
+  s_c632b687bbc0d7::t_bc0f063a177f30 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/QuantileUnion.java
+  s_c632b687bbc0d7::t_a6fa7fc9f1366e 39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrAvgx.java
+  s_c632b687bbc0d7::t_8e0acef43c6e0b 35-36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrAvgy.java
+  s_c632b687bbc0d7::t_003f1e8bba63ab 35-36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrCount.java
+  s_c632b687bbc0d7::t_fc1d70a1c23025 36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrIntercept.java
+  s_c632b687bbc0d7::t_2cb4c9b1f2ddef 37-38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrR2.java
+  s_c632b687bbc0d7::t_1a95b064012880 35-36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrSlope.java
+  s_c632b687bbc0d7::t_49b1e5205a682f 37-38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrSxx.java
+  s_c632b687bbc0d7::t_b3b19846f2e011 35-36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrSxy.java
+  s_c632b687bbc0d7::t_16946d523f3468 35-36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/RegrSyy.java
+  s_c632b687bbc0d7::t_65c4f079ee5152 35-36
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Retention.java
+  s_c632b687bbc0d7::t_baf8fcb19041dd 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Sem.java
+  s_c632b687bbc0d7::t_1bf17f28af88d0 37
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/SequenceCount.java
+  s_c632b687bbc0d7::t_0daf99b27dd6a5 43
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/SequenceMatch.java
+  s_c632b687bbc0d7::t_143afa47562e96 41
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Skew.java
+  s_c632b687bbc0d7::t_23a8aa636de9b2 38-39
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Stddev.java
+  s_c632b687bbc0d7::t_179bb120cdd3af 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/StddevSamp.java
+  s_c632b687bbc0d7::t_cb42e0a00f19f5 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Sum0.java
+  s_c632b687bbc0d7::t_6dc8d17b223ddd 60-61
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/TopN.java
+  s_c632b687bbc0d7::t_26efba9a57ac1f 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/TopNArray.java
+  s_c632b687bbc0d7::t_9c242ebf5de413 40
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/TopNWeighted.java
+  s_c632b687bbc0d7::t_a4e7d9af43ba4f 53
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/Variance.java
+  s_c632b687bbc0d7::t_65633af333b67c 38
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/VarianceSamp.java
+  s_c632b687bbc0d7::t_8f2fb683947827 37
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/WindowFunnel.java
+  s_c632b687bbc0d7::t_36b5f1baacdd38 46
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/expressions/functions/agg/WindowFunnelV2.java
+  s_c632b687bbc0d7::t_d66b38e9e7aacd 47
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/logical/LogicalAggregate.java
+  s_c632b687bbc0d7::t_68fa8e11f9eb69 463
+fe/fe-core/src/main/java/org/apache/doris/nereids/trees/plans/physical/PhysicalHashAggregate.java
+  s_c632b687bbc0d7::t_7536c3490ea940 410
+fe/fe-core/src/main/java/org/apache/doris/nereids/util/ExpressionUtils.java
+  s_c632b687bbc0d7::t_1f3744cd657dce 59,62,1215-1232
+fe/fe-core/src/main/java/org/apache/doris/planner/AnalyticEvalNode.java
+  s_c632b687bbc0d7::t_92cf09be98b1c3 212-215,217-219,223-224
+fe/fe-core/src/main/java/org/apache/doris/planner/HashJoinNode.java
+  s_c632b687bbc0d7::t_576fc1c14227ca 341-345
+fe/fe-core/src/main/java/org/apache/doris/planner/PlanNode.java
+  s_c632b687bbc0d7::t_716ec3928634e6 1087-1097,1099,1120-1131
+fe/fe-core/src/main/java/org/apache/doris/qe/ConnectContext.java
+  s_c632b687bbc0d7::t_31780cb1f0c3cf 906-909,911,1505
+fe/fe-core/src/main/java/org/apache/doris/qe/ConnectProcessor.java
+  s_c632b687bbc0d7::t_8bb2271a19124a 324,581,697-698
+fe/fe-core/src/main/java/org/apache/doris/qe/Coordinator.java
+  s_c632b687bbc0d7::t_e753bf7069af93 879
+fe/fe-core/src/main/java/org/apache/doris/qe/FEOpExecutor.java
+  s_c632b687bbc0d7::t_a7597856fc30f7 224-227,274-275,281
+fe/fe-core/src/main/java/org/apache/doris/qe/MysqlConnectProcessor.java
+  s_c632b687bbc0d7::t_59c021f5f98c45 132
+fe/fe-core/src/main/java/org/apache/doris/qe/NereidsCoordinator.java
+  s_c632b687bbc0d7::t_1450ada0bc8797 509
+fe/fe-core/src/main/java/org/apache/doris/qe/StmtExecutor.java
+  s_c632b687bbc0d7::t_7c8dc16e101e39 697-700,904,906-909,1201,1446-1448,1531-1535,1579,1581-1593
+fe/fe-core/src/main/java/org/apache/doris/qe/protocol/ProtocolAdapter.java
+  s_c632b687bbc0d7::t_78270fc38967a3 25,66-137
+fe/fe-core/src/main/java/org/apache/doris/qe/protocol/ResultSender.java
+  s_c632b687bbc0d7::t_c8870bfeb4c53d 70-72
+fe/fe-core/src/test/java/org/apache/doris/arrowflight/DorisFlightSqlProducerTest.java
+  s_c632b687bbc0d7::t_41d3bb0a550e42 20,175
+fe/fe-core/src/test/java/org/apache/doris/arrowflight/protocol/FlightProtocolAdapterTest.java
+  s_c632b687bbc0d7::t_f3db88b5a454cc 20,34-35,224-345
+fe/fe-core/src/test/java/org/apache/doris/datasource/jdbc/client/JdbcSQLServerClientTest.java
+  s_c632b687bbc0d7::t_c42f103bc2224c 1-165
+fe/fe-core/src/test/java/org/apache/doris/mysql/protocol/MysqlProtocolAdapterTest.java
+  s_c632b687bbc0d7::t_1f2f98404019da 27,36,41,91,93,99-117,229-316
+fe/fe-core/src/test/java/org/apache/doris/nereids/properties/UniformTest.java
+  s_c632b687bbc0d7::t_415f24fa6d64d4 48-54,89-115
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/exploration/mv/PartitionCompensatorTest.java
+  s_c632b687bbc0d7::t_36899e6522df6d 490-567
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/EliminateAggCaseWhenTest.java
+  s_ac4405b9e66b8c::t_51aa8ea2a3385d 1-79
+fe/fe-core/src/test/java/org/apache/doris/nereids/rules/rewrite/InferAggNotNullTest.java
+  s_ac4405b9e66b8c::t_dc3397eb457dac 33-34,36-40,43,45-46,59,87-108,165-190
+fe/fe-core/src/test/java/org/apache/doris/nereids/trees/expressions/functions/agg/DataSketchesHllUnionAggTest.java
+  s_ac4405b9e66b8c::t_d9338967872270 30,73-89
+fe/fe-core/src/test/java/org/apache/doris/planner/LocalShuffleNodeCoverageTest.java
+  s_c632b687bbc0d7::t_0a62cf41e0a1a8 550-569,776-779,834-851,869-872,875-876,1255-1317
+fe/fe-core/src/test/java/org/apache/doris/qe/FEOpExecutorMysqlProtocolTest.java
+  s_c632b687bbc0d7::t_f886cd36084dbf 26,117,126,130,133
+fe/fe-core/src/test/java/org/apache/doris/qe/LocalExchangePlannerTest.java
+  s_c632b687bbc0d7::t_cd3cdaa71d7c4a 78,87,174-189,307-318
+fe/fe-core/src/test/java/org/apache/doris/qe/ProtocolCapabilityWiringTest.java
+  s_c632b687bbc0d7::t_2c6db023051703 1-317
+fe/fe-core/src/test/java/org/apache/doris/qe/protocol/MysqlPacketGoldenTest.java
+  s_c632b687bbc0d7::t_577a9fd1e382c1 62-63,143-159
+fe/fe-core/src/test/java/org/apache/doris/qe/protocol/RecordingMysqlChannel.java
+  s_c632b687bbc0d7::t_77346efa7e0460 37-42,114,126-127,132-133,135-147,149-150
+fe/fe-core/src/test/java/org/apache/doris/utframe/MockedBackendFactory.java
+  s_c632b687bbc0d7::t_ef33b30b28c178 95,498-546,552,560,568
+fe/fe-core/src/test/resources/protocol-golden/mysql-packets.txt
+  s_c632b687bbc0d7::t_841db6bf119b24 261-273,281-295,297-298,300-330
+gensrc/thrift/Partitions.thrift
+  s_c632b687bbc0d7::t_158705ce899189 131-132
+regression-test/data/external_table_p2/jdbc/test_sqlserver_jdbc_catalog.out
+  s_c632b687bbc0d7::t_d4b40f235131fe 136-203,250-261
+regression-test/data/nereids_p0/local_shuffle/test_serial_aggregation_over_parallel_join.out
+  s_c632b687bbc0d7::t_81d1bc599660d5 1-18
+regression-test/data/nereids_rules_p0/eliminate_aggregate_casewhen/eliminate_aggregate_casewhen.out
+  s_c632b687bbc0d7::t_74f9ea1be6456d 178-230,303-323
+regression-test/data/nereids_rules_p0/eliminate_gby_key/eliminate_group_by_key_by_uniform.out
+  s_c632b687bbc0d7::t_c69c5b57c27b7d 11-25
+regression-test/data/nereids_rules_p0/infer_agg_not_null/infer_agg_not_null.out
+  s_c632b687bbc0d7::t_51505c36dc98cb 14-22
+regression-test/data/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg_null_ignoring.out
+  s_8ecd9f5b996e2a::t_c56ec91bab1b23 1-52
+regression-test/pipeline/common/teamcity-utils.sh
+  s_c632b687bbc0d7::t_224eaa62fcca2a 29
+regression-test/suites/arrow_flight_sql_p0/test_arrow_flight_session_lifecycle.groovy
+  s_c632b687bbc0d7::t_6cae1f7d1c57e1 1-143
+regression-test/suites/external_table_p2/jdbc/test_sqlserver_jdbc_catalog.groovy
+  s_c632b687bbc0d7::t_b302e0752db1e9 89-111,164-165
+regression-test/suites/nereids_p0/local_shuffle/test_serial_aggregation_over_parallel_join.groovy
+  s_c632b687bbc0d7::t_9f4147341cf660 1-97
+regression-test/suites/nereids_rules_p0/eliminate_aggregate_casewhen/eliminate_aggregate_casewhen.groovy
+  s_c632b687bbc0d7::t_6b3d3dab96f1c9 78-105,139-160
+regression-test/suites/nereids_rules_p0/eliminate_gby_key/eliminate_group_by_key_by_uniform.groovy
+  s_c632b687bbc0d7::t_d2280d59085f7d 45-135,426
+regression-test/suites/nereids_rules_p0/infer_agg_not_null/infer_agg_not_null.groovy
+  s_c632b687bbc0d7::t_cb14e0cc36b06a 66-90,130-151
+regression-test/suites/query_p0/sql_functions/aggregate_functions/test_datasketches_hll_union_agg_null_ignoring.groovy
+  s_c632b687bbc0d7::t_c53d5b76deb058 1-116
+regression-test/suites/query_p0/test_multi_statement_response.groovy
+  s_c632b687bbc0d7::t_fe5ad9b3750639 1-439
+regression-test/suites/query_p0/test_mysql_forward_to_master.groovy
+  s_c632b687bbc0d7::t_d900518bf9bf77 1-123
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "b69a9be1f06f22c149bb5e336aeaa3ea7825944a",
+  "prompts": {},
+  "sessions": {
+    "s_8ecd9f5b996e2a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a09fb5-9aa4-7f50-a212-83806eff8030",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    },
+    "s_ac4405b9e66b8c": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a09fb8-a230-7763-b1d5-d7b069db6b83",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    },
+    "s_c632b687bbc0d7": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "01a09fb4-4a01-7140-802d-53dc598b8c7f",
+        "model": "unknown"
+      },
+      "human_author": "yuanyuhao <yuanyuhao@bytedance.com>"
+    }
+  },
+  "attestation_metadata": {},
+  "remote_transcripts": {}
+}
